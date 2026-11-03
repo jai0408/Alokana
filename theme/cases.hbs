@@ -1,0 +1,35 @@
+{{!< default}}
+<div class="wrap">
+    <header class="page-head">
+        <p class="kicker">Archive</p>
+        <h1>Case database</h1>
+        <p class="lede">Structured records of documented events. Filter by category, or by the procedural stage a record has reached.</p>
+    </header>
+
+    {{> "category-chips"}}
+
+    {{#if posts}}
+    <div class="status-filter">
+        <label for="status-filter">Stage on this page</label>
+        <select id="status-filter" data-status-filter>
+            <option value="">All stages</option>
+            <option value="complaint-received">Complaint received</option>
+            <option value="fir-investigation">FIR / investigation</option>
+            <option value="charges-filed">Charges filed</option>
+            <option value="regulatory-finding">Regulatory / audit finding</option>
+            <option value="proceeding-pending">Trial / proceeding pending</option>
+            <option value="judgment-issued">Judgment / order issued</option>
+            <option value="appeal-pending">Appeal / review pending</option>
+            <option value="closed">Closed / final outcome</option>
+        </select>
+        <span class="small muted" data-status-count aria-live="polite"></span>
+    </div>
+    <div class="case-grid">
+        {{#foreach posts}}{{> "case-card"}}{{/foreach}}
+    </div>
+    <div class="empty" data-status-empty hidden><p>No records on this page have reached that stage.</p></div>
+    {{else}}
+    <div class="empty"><p>No case records have been published yet.</p></div>
+    {{/if}}
+    {{> "pagination"}}
+</div>

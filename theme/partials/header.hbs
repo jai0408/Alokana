@@ -1,0 +1,24 @@
+<header class="site-header">
+    <div class="wrap site-header__inner">
+        <a href="{{@site.url}}" class="brand" aria-label="{{@site.title}} home">
+            <span class="brand__mark" aria-hidden="true">ఆ</span>
+            <span class="brand__text">
+                <span class="brand__name">{{@site.title}}</span>
+                <span class="brand__sub">Real Estate Accountability Project</span>
+            </span>
+        </a>
+        <nav class="nav" aria-label="Primary">
+            {{> "nav-links"}}
+            <a href="/report/" class="nav__cta">Report a concern</a>
+        </nav>
+        <details class="nav-mobile">
+            <summary>Menu</summary>
+            <div class="nav-mobile__panel">
+                {{> "nav-links"}}
+                <a href="/report/">Report a concern</a>
+                <a href="/right-of-reply/">Right of reply</a>
+                <a href="/independence/">Funding &amp; independence</a>
+            </div>
+        </details>
+    </div>
+</header>

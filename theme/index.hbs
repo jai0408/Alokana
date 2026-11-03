@@ -1,0 +1,17 @@
+{{!< default}}
+{{!-- Fallback listing for posts that are neither investigations nor case records (the /notes/ collection). --}}
+<div class="wrap">
+    <header class="page-head">
+        <p class="kicker">Archive</p>
+        <h1>Notes</h1>
+        <p class="lede">Updates from the editorial team.</p>
+    </header>
+    {{#if posts}}
+    <ol class="inv-list">
+        {{#foreach posts}}{{> "investigation-item"}}{{/foreach}}
+    </ol>
+    {{else}}
+    <div class="empty"><p>Nothing here yet.</p></div>
+    {{/if}}
+    {{> "pagination"}}
+</div>

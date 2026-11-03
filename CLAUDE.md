@@ -26,9 +26,16 @@
 - Do not deploy, publish or access production without explicit human approval.
 
 # Repository map
-- `packages/domain` — public case model (`model.ts`), status / evidence / amount vocabulary (`vocabulary.ts`),
-  read-only repository (`repository.ts`) and SYNTHETIC fixtures (`fixtures.ts`). Page code reads cases only via the repository.
-- `apps/web` — Next.js App Router public site. No private routes exist yet.
-- Public types must never gain fields for source identity, storage keys or unpublished claims.
-- Fixture parties carry "(fictional)" / "(sample)" markers and `synthetic: true`. Keep it that way.
-- Report-a-concern (`apps/web/app/report`) is a disabled preview until roadmap phase 4 sign-off.
+- `theme/` — custom Ghost 6 theme for the public site. Validate with `npx gscan theme/` before any change ships.
+- `content/` — `build-import.mjs` generates `alokana-sample-content.json` (SYNTHETIC import) from the archived
+  fixtures; `routes.yaml` defines the `/cases/` and `/investigations/` collections.
+- `archive/next-site/` — earlier Next.js front end, reference only. `packages/domain/src/fixtures.ts` there is the
+  source of the synthetic records. Public types must never gain fields for source identity, storage keys or
+  unpublished claims.
+- Fixture parties carry "(fictional)" / "(sample)" markers and `synthetic: true`; generated Ghost posts carry
+  the internal tag `#synthetic`. Keep it that way, and never import sample content into production.
+- Ghost holds published material only. Never store source identities, raw evidence or unpublished allegations
+  in Ghost. Posts tagged `case` are case records, `investigation` are investigations; internal tags
+  `#case-<ID>` link them.
+- Nothing in this repo may push content or themes to Ghost automatically; uploads are done by a human editor.
+- Report-a-concern is a disabled preview until roadmap phase 4 sign-off.

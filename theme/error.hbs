@@ -1,0 +1,9 @@
+{{!< default}}
+<div class="wrap">
+    <header class="page-head">
+        <p class="kicker">Error {{statusCode}}</p>
+        <h1>{{#match statusCode 404}}Page not found{{else}}Something went wrong{{/match}}</h1>
+        <p class="lede">{{#match statusCode 404}}This record or page does not exist, or has not been published.{{else}}{{message}}{{/match}}</p>
+    </header>
+    <p><a href="/cases/">Browse the case database →</a></p>
+</div>

@@ -46,6 +46,10 @@ export function getCaseBySlug(slug: string): Case | undefined {
   return SYNTHETIC_CASES.find((c) => c.slug === slug);
 }
 
+export function getCaseById(id: string): Case | undefined {
+  return SYNTHETIC_CASES.find((c) => c.id === id);
+}
+
 export function listDistricts(): { state: State; district: string; count: number }[] {
   const map = new Map<string, { state: State; district: string; count: number }>();
   for (const c of SYNTHETIC_CASES) {

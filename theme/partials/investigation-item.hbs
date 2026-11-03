@@ -1,0 +1,9 @@
+<li class="inv-item">
+    <p class="inv-item__meta">
+        <time datetime="{{date published_at format="YYYY-MM-DD"}}">{{date published_at format="D MMM YYYY"}}</time>
+        {{#foreach tags}}{{#unless (match slug "investigation")}}<span class="tag">{{name}}</span>{{/unless}}{{/foreach}}
+    </p>
+    <h2 class="inv-item__title"><a href="{{url}}">{{title}}</a></h2>
+    {{#if custom_excerpt}}<p class="inv-item__dek">{{custom_excerpt}}</p>{{else}}<p class="inv-item__dek">{{excerpt words="40"}}</p>{{/if}}
+    <p class="small muted" style="margin:0">{{reading_time}}</p>
+</li>

@@ -1,0 +1,682 @@
+{
+  "db": [
+    {
+      "meta": {
+        "exported_on": 1793706921130,
+        "version": "6.0.0"
+      },
+      "data": {
+        "posts": [
+          {
+            "id": "5d981ce9d18776035a574cd8",
+            "title": "Institutional land allotment: utilisation conditions not met, resumption ordered",
+            "slug": "sample-allotment-institutional-land-2008",
+            "type": "post",
+            "status": "draft",
+            "visibility": "public",
+            "featured": 0,
+            "lexical": "{\"root\":{\"children\":[{\"type\":\"html\",\"version\":1,\"html\":\"<dl class=\\\"facts\\\">\\n  <div><dt>Record ID</dt><dd class=\\\"mono\\\">SYN-0001</dd></div>\\n  <div><dt>Location</dt><dd>Sample Village, Sample Mandal, Rangareddy</dd></div>\\n  <div><dt>State today</dt><dd>Telangana</dd></div>\\n  <div><dt>Jurisdiction at event</dt><dd>Undivided Andhra Pradesh</dd></div>\\n  <div><dt>Period</dt><dd>12 Jun 2008 – 14 Mar 2024</dd></div>\\n  <div><dt>Last checked</dt><dd>28 Oct 2026</dd></div>\\n  <div><dt>Version</dt><dd>v3 · 2 Apr 2026</dd></div>\\n</dl>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Summary\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"A state audit observation recorded that 40 acres allotted at a concessional rate in 2008 to a sample educational society for a campus had not been put to the stated use within the allotment period. The district revenue authority later issued a resumption order, which the society challenged. The challenge was dismissed and the order has been confirmed.\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"paragraph\",\"version\":1},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Claims and evidence\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<p class=\\\"muted small\\\">Each material assertion is stated separately. A source proves only what it actually records.</p>\\n<div class=\\\"claim\\\">\\n  <div class=\\\"claim__head\\\"><span><span class=\\\"mono\\\">Claim C1</span> · Jun 2008 · concerns Example Education Society (fictional)</span><span class=\\\"vs vs--verified-against-original\\\">Checked against original record</span></div>\\n  <p class=\\\"claim__text\\\">The government order allotted 40 acres to Example Education Society at a concessional rate, conditional on campus construction within three years.</p>\\n  <ul class=\\\"claim__ev\\\"><li><span class=\\\"rel rel--supports\\\">supports</span><a href=\\\"#doc-S1\\\">Allotment of land to Example Education Society</a><span class=\\\"muted\\\">Paras 2–4 · Class B</span></li></ul>\\n</div>\\n<div class=\\\"claim\\\">\\n  <div class=\\\"claim__head\\\"><span><span class=\\\"mono\\\">Claim C2</span> · 2008–2011</span><span class=\\\"vs vs--verified-against-original\\\">Checked against original record</span></div>\\n  <p class=\\\"claim__text\\\">The state audit report observed that the land remained unutilised as of the audit date and that the department had not initiated recovery.</p>\\n  <ul class=\\\"claim__ev\\\"><li><span class=\\\"rel rel--supports\\\">supports</span><a href=\\\"#doc-S2\\\">Performance audit on allotment of government land, 2006–2011</a><span class=\\\"muted\\\">Chapter 3, para 3.4.2 · Class B</span></li><li><span class=\\\"rel rel--context\\\">context</span><a href=\\\"#doc-S3\\\">Reply to audit observation 3.4.2</a><span class=\\\"muted\\\">Department reply, p. 2 · Class B</span></li></ul>\\n</div>\\n<div class=\\\"claim\\\">\\n  <div class=\\\"claim__head\\\"><span><span class=\\\"mono\\\">Claim C3</span> · 2012 · concerns Example Education Society (fictional)</span><span class=\\\"vs vs--attributed\\\">Attributed account</span></div>\\n  <p class=\\\"claim__text\\\">The society stated in its reply to the audit that construction was delayed by a pending boundary dispute.</p>\\n  <ul class=\\\"claim__ev\\\"><li><span class=\\\"rel rel--context\\\">context</span><a href=\\\"#doc-S3\\\">Reply to audit observation 3.4.2</a><span class=\\\"muted\\\">Annexure B · Class B</span></li></ul>\\n</div>\\n<div class=\\\"claim\\\">\\n  <div class=\\\"claim__head\\\"><span><span class=\\\"mono\\\">Claim C4</span> · Mar 2024 · concerns Example Education Society (fictional)</span><span class=\\\"vs vs--verified-against-original\\\">Checked against original record</span></div>\\n  <p class=\\\"claim__text\\\">The court dismissed the society&#39;s challenge and upheld the resumption order.</p>\\n  <ul class=\\\"claim__ev\\\"><li><span class=\\\"rel rel--supports\\\">supports</span><a href=\\\"#doc-S4\\\">Example Education Society v. State — writ petition</a><span class=\\\"muted\\\">Operative para 18 · Class A</span></li></ul>\\n</div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Timeline\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<ol class=\\\"timeline\\\">\\n<li><time datetime=\\\"2008-06-12\\\">12 Jun 2008</time><strong>Allotment</strong><p>Government order allots 40 acres at concessional rate. · Revenue Department · <a href=\\\"#doc-S1\\\">source</a></p></li>\\n<li><time datetime=\\\"2012-12-01\\\">1 Dec 2012</time><strong>Audit observation</strong><p>Audit records land as unutilised. · State audit office · <a href=\\\"#doc-S2\\\">source</a></p></li>\\n<li><time datetime=\\\"2014-06-02\\\">2 Jun 2014</time><strong>Jurisdiction change</strong><p>Parcel falls within Telangana after bifurcation.</p></li>\\n<li><time datetime=\\\"2018-09-04\\\">4 Sept 2018</time><strong>Resumption order</strong><p>Show-cause followed by resumption order. · District Revenue Office · <span class=\\\"mono\\\">SYN-RES-2018-07</span></p></li>\\n<li><time datetime=\\\"2019-01-22\\\">22 Jan 2019</time><strong>Writ petition filed</strong><p>Society challenges resumption. · High Court · <span class=\\\"mono\\\">SYN-WP-2019-8812</span></p></li>\\n<li><time datetime=\\\"2024-03-14\\\">14 Mar 2024</time><strong>Judgment</strong><p>Petition dismissed; resumption upheld. · High Court · <span class=\\\"mono\\\">SYN-WP-2019-8812</span> · <a href=\\\"#doc-S4\\\">source</a></p></li>\\n</ol>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Parties and roles\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"table-scroll\\\"><table class=\\\"data\\\">\\n<thead><tr><th scope=\\\"col\\\">Party</th><th scope=\\\"col\\\">Type</th><th scope=\\\"col\\\">Role in this record</th></tr></thead>\\n<tbody><tr><td>Example Education Society (fictional)</td><td class=\\\"muted\\\">company</td><td>Allottee</td></tr><tr><td>District Revenue Office (sample)</td><td class=\\\"muted\\\">public authority</td><td>Allotting and resuming authority</td></tr></tbody>\\n</table></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Financial amounts\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"table-scroll\\\"><table class=\\\"data\\\">\\n<thead><tr><th scope=\\\"col\\\">Amount</th><th scope=\\\"col\\\">Type</th><th scope=\\\"col\\\">Basis</th></tr></thead>\\n<tbody><tr><td class=\\\"amount\\\">₹1.2 crore</td><td><span class=\\\"amt-type amt-type--documented\\\" title=\\\"Amount shown in a primary record we hold.\\\">Documented</span></td><td>Concessional price paid under the allotment order · <a href=\\\"#doc-S1\\\">source</a></td></tr><tr><td class=\\\"amount\\\">₹9.6 crore</td><td><span class=\\\"amt-type amt-type--estimate\\\" title=\\\"Our calculation; method stated alongside.\\\">Estimate</span></td><td>Our estimate of 2008 market value using the sample registration guideline value for the village. Method note available.</td></tr></tbody>\\n</table></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Documents\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<p class=\\\"muted small\\\">Original files are held privately with a recorded hash and chain of custody. Where a redacted public copy exists it has had personal data and metadata removed.</p>\\n<div class=\\\"table-scroll\\\"><table class=\\\"data\\\">\\n<thead><tr><th scope=\\\"col\\\">Document</th><th scope=\\\"col\\\">Class</th><th scope=\\\"col\\\">Obtained</th><th scope=\\\"col\\\">Public copy</th></tr></thead>\\n<tbody><tr id=\\\"doc-S1\\\"><td><strong>Allotment of land to Example Education Society</strong><br><span class=\\\"muted small\\\">Government Order · Revenue Department (sample) · 12 Jun 2008</span><br><span class=\\\"mono muted\\\">SYN-GO-2008-112</span></td><td title=\\\"Official adjudicatory or audit finding\\\"><strong>B</strong><br><span class=\\\"small muted\\\">Official adjudicatory or audit finding</span></td><td class=\\\"small\\\">Certified copy via RTI</td><td class=\\\"small\\\">Redacted copy (sample — no file)</td></tr><tr id=\\\"doc-S2\\\"><td><strong>Performance audit on allotment of government land, 2006–2011</strong><br><span class=\\\"muted small\\\">Audit report · State audit office (sample) · 1 Dec 2012</span><br><span class=\\\"mono muted\\\">SYN-AUD-2012-03</span><p class=\\\"small muted\\\">Note: Audit observation identifies an administrative issue; it does not establish individual culpability.</p></td><td title=\\\"Official adjudicatory or audit finding\\\"><strong>B</strong><br><span class=\\\"small muted\\\">Official adjudicatory or audit finding</span></td><td class=\\\"small\\\">Official public download</td><td class=\\\"small\\\">Redacted copy (sample — no file)</td></tr><tr id=\\\"doc-S3\\\"><td><strong>Reply to audit observation 3.4.2</strong><br><span class=\\\"muted small\\\">Department reply · Revenue Department (sample) · 18 Feb 2013</span><br><span class=\\\"mono muted\\\">SYN-REV-2013-0441</span></td><td title=\\\"Official adjudicatory or audit finding\\\"><strong>B</strong><br><span class=\\\"small muted\\\">Official adjudicatory or audit finding</span></td><td class=\\\"small\\\">Annexure to audit report</td><td class=\\\"small\\\">Redacted copy (sample — no file)</td></tr><tr id=\\\"doc-S4\\\"><td><strong>Example Education Society v. State — writ petition</strong><br><span class=\\\"muted small\\\">Court judgment · High Court (sample) · 14 Mar 2024</span><br><span class=\\\"mono muted\\\">SYN-WP-2019-8812</span></td><td title=\\\"Final judicial finding\\\"><strong>A</strong><br><span class=\\\"small muted\\\">Final judicial finding</span></td><td class=\\\"small\\\">Court website certified copy</td><td class=\\\"small\\\">Redacted copy (sample — no file)</td></tr></tbody>\\n</table></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Right of reply\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"reply\\\"><strong>Example Education Society (fictional)</strong><p class=\\\"small muted\\\">Questions sent 10 Feb 2026 by email and registered post; deadline 24 Feb 2026. Response received 21 Feb 2026.</p><blockquote>The society said it accepts the court&#39;s decision and that the boundary dispute made timely construction impossible.</blockquote></div>\\n<div class=\\\"reply reply--none\\\"><strong>District Revenue Office (sample)</strong><p class=\\\"small muted\\\">Questions sent 10 Feb 2026 by email to public information officer; deadline 24 Feb 2026.</p><p class=\\\"small\\\" style=\\\"margin-top:8px\\\">No response had been received by the deadline. This should not be read as an admission. We will add any response we receive.</p></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Legal and appeal status\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"callout\\\"><p class=\\\"callout__label\\\">As at 28 Oct 2026</p><p style=\\\"margin:0\\\">Resumption order confirmed by the court on 14 Mar 2024. No further appeal was found on the court&#39;s case-status record as at the last-checked date.</p></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Correction history\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<ul style=\\\"padding-left:18px\\\">\\n<li><strong>v2 · 1 Mar 2026</strong> — Added the 2014 jurisdiction change to the timeline for clarity. <span class=\\\"muted small\\\">(changed: timeline)</span></li>\\n<li><strong>v3 · 2 Apr 2026</strong> — Estimate basis clarified; the figure did not change. <span class=\\\"muted small\\\">(changed: financialItems)</span></li>\\n<li><strong>v1 · first published</strong></li>\\n</ul>\"}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}",
+            "mobiledoc": null,
+            "custom_excerpt": "A state audit observation recorded that 40 acres allotted at a concessional rate in 2008 to a sample educational society for a campus had not been put to the stated use within the allotment period. The district revenue authority later issued a resumption order, which the society challenged.",
+            "published_at": null,
+            "created_at": "2026-04-02T09:00:00.000Z",
+            "updated_at": "2026-04-02T09:00:00.000Z"
+          },
+          {
+            "id": "37ce34eaba5caabee499209c",
+            "title": "RERA refund order for delayed tower project; promoter's appeal pending",
+            "slug": "sample-rera-refund-order-tower-project",
+            "type": "post",
+            "status": "draft",
+            "visibility": "public",
+            "featured": 0,
+            "lexical": "{\"root\":{\"children\":[{\"type\":\"html\",\"version\":1,\"html\":\"<dl class=\\\"facts\\\">\\n  <div><dt>Record ID</dt><dd class=\\\"mono\\\">SYN-0002</dd></div>\\n  <div><dt>Location</dt><dd>Sample Nagar, Medchal-Malkajgiri</dd></div>\\n  <div><dt>State today</dt><dd>Telangana</dd></div>\\n  <div><dt>Jurisdiction at event</dt><dd>Telangana</dd></div>\\n  <div><dt>Period</dt><dd>1 Apr 2019 – ongoing</dd></div>\\n  <div><dt>Last checked</dt><dd>30 Oct 2026</dd></div>\\n  <div><dt>Version</dt><dd>v2 · 15 Sept 2026</dd></div>\\n</dl>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Summary\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Fourteen buyers in a registered residential project complained to the real estate regulator that possession was more than two years past the date in their agreements. The regulator ordered the promoter to refund amounts paid with interest. The promoter has appealed to the appellate tribunal, where the matter is pending.\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"paragraph\",\"version\":1},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Claims and evidence\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<p class=\\\"muted small\\\">Each material assertion is stated separately. A source proves only what it actually records.</p>\\n<div class=\\\"claim\\\">\\n  <div class=\\\"claim__head\\\"><span><span class=\\\"mono\\\">Claim C1</span> · 2019 · concerns Sample Heights Developers Pvt Ltd (fictional)</span><span class=\\\"vs vs--verified-against-original\\\">Checked against original record</span></div>\\n  <p class=\\\"claim__text\\\">The project was registered with the regulator with a declared completion date of 31 Dec 2022.</p>\\n  <ul class=\\\"claim__ev\\\"><li><span class=\\\"rel rel--supports\\\">supports</span><a href=\\\"#doc-S1\\\">Project registration — Sample Heights</a><span class=\\\"muted\\\">Registration certificate, field 9 · Class B</span></li></ul>\\n</div>\\n<div class=\\\"claim\\\">\\n  <div class=\\\"claim__head\\\"><span><span class=\\\"mono\\\">Claim C2</span> · Mar 2025 · concerns Sample Heights Developers Pvt Ltd (fictional)</span><span class=\\\"vs vs--verified-against-original\\\">Checked against original record</span></div>\\n  <p class=\\\"claim__text\\\">The regulator found that the promoter failed to give possession by the agreed date and ordered refunds with interest to 14 complainants.</p>\\n  <ul class=\\\"claim__ev\\\"><li><span class=\\\"rel rel--supports\\\">supports</span><a href=\\\"#doc-S2\\\">Order in complaints of allottees v. Sample Heights Developers</a><span class=\\\"muted\\\">Paras 21–27 · Class B</span></li></ul>\\n</div>\\n<div class=\\\"claim\\\">\\n  <div class=\\\"claim__head\\\"><span><span class=\\\"mono\\\">Claim C3</span> · 2025 · concerns Sample Heights Developers Pvt Ltd (fictional)</span><span class=\\\"vs vs--disputed-by-subject\\\">Disputed by subject</span></div>\\n  <p class=\\\"claim__text\\\">The promoter has said in its appeal that the delay was caused by a change in sanctioned height limits outside its control.</p>\\n  <ul class=\\\"claim__ev\\\"><li><span class=\\\"rel rel--context\\\">context</span><a href=\\\"#doc-S3\\\">Appeal by Sample Heights Developers</a><span class=\\\"muted\\\">Grounds of appeal, para 4 · Class D</span></li><li><span class=\\\"rel rel--contradicts\\\">contradicts</span><a href=\\\"#doc-S2\\\">Order in complaints of allottees v. Sample Heights Developers</a><span class=\\\"muted\\\">Para 24 (regulator rejected force majeure) · Class B</span></li></ul>\\n</div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Timeline\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<ol class=\\\"timeline\\\">\\n<li><time datetime=\\\"2019-04-01\\\">1 Apr 2019</time><strong>Project registered</strong><p>Declared completion: 31 Dec 2022. · State RERA · <a href=\\\"#doc-S1\\\">source</a></p></li>\\n<li><time datetime=\\\"2023-08-17\\\">17 Aug 2023</time><strong>Complaints filed</strong><p>14 allottees file complaints for delayed possession. · State RERA · <span class=\\\"mono\\\">SYN-RERA-C-2023-1190</span></p></li>\\n<li><time datetime=\\\"2025-03-11\\\">11 Mar 2025</time><strong>Order</strong><p>Refund with interest ordered. · State RERA · <a href=\\\"#doc-S2\\\">source</a></p></li>\\n<li><time datetime=\\\"2025-05-02\\\">2 May 2025</time><strong>Appeal filed</strong><p>Promoter appeals; conditional stay granted. · Appellate tribunal · <span class=\\\"mono\\\">SYN-AT-2025-0063</span> · <a href=\\\"#doc-S3\\\">source</a></p></li>\\n</ol>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Parties and roles\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"table-scroll\\\"><table class=\\\"data\\\">\\n<thead><tr><th scope=\\\"col\\\">Party</th><th scope=\\\"col\\\">Type</th><th scope=\\\"col\\\">Role in this record</th></tr></thead>\\n<tbody><tr><td>Sample Heights Developers Pvt Ltd (fictional)</td><td class=\\\"muted\\\">company</td><td>Promoter</td></tr><tr><td>14 allottees (names withheld)</td><td class=\\\"muted\\\">buyer group</td><td>Complainants</td></tr><tr><td>State RERA (sample)</td><td class=\\\"muted\\\">public authority</td><td>Regulator</td></tr></tbody>\\n</table></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Financial amounts\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"table-scroll\\\"><table class=\\\"data\\\">\\n<thead><tr><th scope=\\\"col\\\">Amount</th><th scope=\\\"col\\\">Type</th><th scope=\\\"col\\\">Basis</th></tr></thead>\\n<tbody><tr><td class=\\\"amount\\\">₹9.84 crore</td><td><span class=\\\"amt-type amt-type--ordered\\\" title=\\\"Amount directed by a court, regulator or authority.\\\">Ordered</span></td><td>Total principal refund ordered across 14 complainants, excluding interest · <a href=\\\"#doc-S2\\\">source</a></td></tr><tr><td class=\\\"amount\\\">₹0</td><td><span class=\\\"amt-type amt-type--recovered\\\" title=\\\"Amount confirmed as actually paid or recovered.\\\">Recovered</span></td><td>No refund confirmed as paid as at last-checked date (order stayed)</td></tr></tbody>\\n</table></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Documents\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<p class=\\\"muted small\\\">Original files are held privately with a recorded hash and chain of custody. Where a redacted public copy exists it has had personal data and metadata removed.</p>\\n<div class=\\\"table-scroll\\\"><table class=\\\"data\\\">\\n<thead><tr><th scope=\\\"col\\\">Document</th><th scope=\\\"col\\\">Class</th><th scope=\\\"col\\\">Obtained</th><th scope=\\\"col\\\">Public copy</th></tr></thead>\\n<tbody><tr id=\\\"doc-S1\\\"><td><strong>Project registration — Sample Heights</strong><br><span class=\\\"muted small\\\">Regulator registration record · State RERA (sample) · 1 Apr 2019</span><br><span class=\\\"mono muted\\\">SYN-RERA-P-2019-0477</span><p class=\\\"small muted\\\">Note: Portal display; certified copy requested.</p></td><td title=\\\"Official adjudicatory or audit finding\\\"><strong>B</strong><br><span class=\\\"small muted\\\">Official adjudicatory or audit finding</span></td><td class=\\\"small\\\">Official portal download</td><td class=\\\"small\\\">Redacted copy (sample — no file)</td></tr><tr id=\\\"doc-S2\\\"><td><strong>Order in complaints of allottees v. Sample Heights Developers</strong><br><span class=\\\"muted small\\\">Regulator order · State RERA (sample) · 11 Mar 2025</span><br><span class=\\\"mono muted\\\">SYN-RERA-C-2023-1190</span></td><td title=\\\"Official adjudicatory or audit finding\\\"><strong>B</strong><br><span class=\\\"small muted\\\">Official adjudicatory or audit finding</span></td><td class=\\\"small\\\">Certified copy</td><td class=\\\"small\\\">Redacted copy (sample — no file)</td></tr><tr id=\\\"doc-S3\\\"><td><strong>Appeal by Sample Heights Developers</strong><br><span class=\\\"muted small\\\">Appeal memorandum · Appellate tribunal (sample) · 2 May 2025</span><br><span class=\\\"mono muted\\\">SYN-AT-2025-0063</span></td><td title=\\\"Primary private record\\\"><strong>D</strong><br><span class=\\\"small muted\\\">Primary private record</span></td><td class=\\\"small\\\">Provided by promoter with right-of-reply response</td><td class=\\\"small\\\">Not published</td></tr></tbody>\\n</table></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Right of reply\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"reply\\\"><strong>Sample Heights Developers Pvt Ltd (fictional)</strong><p class=\\\"small muted\\\">Questions sent 20 Aug 2026 by email to registered company address; deadline 3 Sept 2026. Response received 1 Sept 2026.</p><blockquote>The promoter said the delay arose from a revised height clearance, that it intends to complete the project, and provided its appeal memorandum.</blockquote></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Legal and appeal status\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"callout\\\"><p class=\\\"callout__label\\\">As at 30 Oct 2026</p><p style=\\\"margin:0\\\">Appeal pending before the appellate tribunal. A conditional stay on the refund order is in place subject to a deposit. Next hearing listed 19 Nov 2026.</p></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Correction history\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<ul style=\\\"padding-left:18px\\\">\\n<li><strong>v2 · 15 Sept 2026</strong> — Updated to reflect the conditional stay and next hearing date. <span class=\\\"muted small\\\">(changed: legalStatus)</span></li>\\n<li><strong>v1 · first published</strong></li>\\n</ul>\"}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}",
+            "mobiledoc": null,
+            "custom_excerpt": "Fourteen buyers in a registered residential project complained to the real estate regulator that possession was more than two years past the date in their agreements. The regulator ordered the promoter to refund amounts paid with interest.",
+            "published_at": null,
+            "created_at": "2026-09-15T09:00:00.000Z",
+            "updated_at": "2026-09-15T09:00:00.000Z"
+          },
+          {
+            "id": "b5f7af36aaade2e3c2f76724",
+            "title": "Trap case: official at a registration office charged over alleged payment demand",
+            "slug": "sample-trap-case-registration-office",
+            "type": "post",
+            "status": "draft",
+            "visibility": "public",
+            "featured": 0,
+            "lexical": "{\"root\":{\"children\":[{\"type\":\"html\",\"version\":1,\"html\":\"<dl class=\\\"facts\\\">\\n  <div><dt>Record ID</dt><dd class=\\\"mono\\\">SYN-0003</dd></div>\\n  <div><dt>Location</dt><dd>Sample Town, Guntur</dd></div>\\n  <div><dt>State today</dt><dd>Andhra Pradesh</dd></div>\\n  <div><dt>Jurisdiction at event</dt><dd>Andhra Pradesh</dd></div>\\n  <div><dt>Period</dt><dd>6 Nov 2023 – ongoing</dd></div>\\n  <div><dt>Last checked</dt><dd>21 Oct 2026</dd></div>\\n  <div><dt>Version</dt><dd>v1 · 30 Jun 2026</dd></div>\\n</dl>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Summary\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"The anti-corruption agency registered a case after a complainant alleged that a registration-office employee demanded a payment to register a sale deed. The agency has filed a chargesheet. The trial has not concluded and no finding of guilt has been made.\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"paragraph\",\"version\":1},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Claims and evidence\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<p class=\\\"muted small\\\">Each material assertion is stated separately. A source proves only what it actually records.</p>\\n<div class=\\\"claim\\\">\\n  <div class=\\\"claim__head\\\"><span><span class=\\\"mono\\\">Claim C1</span> · Nov 2023 · concerns Registration office employee (name withheld)</span><span class=\\\"vs vs--verified-against-original\\\">Checked against original record</span></div>\\n  <p class=\\\"claim__text\\\">The anti-corruption agency registered a case alleging that an employee of the registration office demanded a payment to register a sale deed.</p>\\n  <ul class=\\\"claim__ev\\\"><li><span class=\\\"rel rel--supports\\\">supports</span><a href=\\\"#doc-S1\\\">Press note on trap case</a><span class=\\\"muted\\\">Full press note · Class C</span></li></ul>\\n</div>\\n<div class=\\\"claim\\\">\\n  <div class=\\\"claim__head\\\"><span><span class=\\\"mono\\\">Claim C2</span> · Jun 2025 · concerns Registration office employee (name withheld)</span><span class=\\\"vs vs--verified-against-original\\\">Checked against original record</span></div>\\n  <p class=\\\"claim__text\\\">The agency has filed a chargesheet. The accused has not been convicted and is presumed innocent.</p>\\n  <ul class=\\\"claim__ev\\\"><li><span class=\\\"rel rel--supports\\\">supports</span><a href=\\\"#doc-S2\\\">Case status record</a><span class=\\\"muted\\\">Case status entry · Class C</span></li></ul>\\n</div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Timeline\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<ol class=\\\"timeline\\\">\\n<li><time datetime=\\\"2023-11-06\\\">6 Nov 2023</time><strong>Case registered</strong><p>Trap case registered on complaint. · Anti-corruption agency · <a href=\\\"#doc-S1\\\">source</a></p></li>\\n<li><time datetime=\\\"2025-06-18\\\">18 Jun 2025</time><strong>Chargesheet filed</strong><p>Chargesheet filed; trial pending. · Special court · <span class=\\\"mono\\\">SYN-CC-2025-0144</span> · <a href=\\\"#doc-S2\\\">source</a></p></li>\\n</ol>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Parties and roles\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"table-scroll\\\"><table class=\\\"data\\\">\\n<thead><tr><th scope=\\\"col\\\">Party</th><th scope=\\\"col\\\">Type</th><th scope=\\\"col\\\">Role in this record</th></tr></thead>\\n<tbody><tr><td>Registration office employee (name withheld)</td><td class=\\\"muted\\\">individual</td><td>Accused — trial pending</td></tr><tr><td>Anti-corruption agency (sample)</td><td class=\\\"muted\\\">public authority</td><td>Investigating agency</td></tr></tbody>\\n</table></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Financial amounts\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"table-scroll\\\"><table class=\\\"data\\\">\\n<thead><tr><th scope=\\\"col\\\">Amount</th><th scope=\\\"col\\\">Type</th><th scope=\\\"col\\\">Basis</th></tr></thead>\\n<tbody><tr><td class=\\\"amount\\\">₹50,000</td><td><span class=\\\"amt-type amt-type--alleged\\\" title=\\\"Amount stated in a complaint or allegation; not established.\\\">Alleged</span></td><td>Amount stated in the agency&#39;s press note as allegedly demanded · <a href=\\\"#doc-S1\\\">source</a></td></tr></tbody>\\n</table></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Documents\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<p class=\\\"muted small\\\">Original files are held privately with a recorded hash and chain of custody. Where a redacted public copy exists it has had personal data and metadata removed.</p>\\n<div class=\\\"table-scroll\\\"><table class=\\\"data\\\">\\n<thead><tr><th scope=\\\"col\\\">Document</th><th scope=\\\"col\\\">Class</th><th scope=\\\"col\\\">Obtained</th><th scope=\\\"col\\\">Public copy</th></tr></thead>\\n<tbody><tr id=\\\"doc-S1\\\"><td><strong>Press note on trap case</strong><br><span class=\\\"muted small\\\">Agency press note · Anti-corruption agency (sample) · 7 Nov 2023</span><br><span class=\\\"mono muted\\\">SYN-ACB-PN-2023-219</span></td><td title=\\\"Formal investigative record\\\"><strong>C</strong><br><span class=\\\"small muted\\\">Formal investigative record</span></td><td class=\\\"small\\\">Official website</td><td class=\\\"small\\\">Redacted copy (sample — no file)</td></tr><tr id=\\\"doc-S2\\\"><td><strong>Case status record</strong><br><span class=\\\"muted small\\\">Court case status · Special court (sample) · 18 Jun 2025</span><br><span class=\\\"mono muted\\\">SYN-CC-2025-0144</span></td><td title=\\\"Formal investigative record\\\"><strong>C</strong><br><span class=\\\"small muted\\\">Formal investigative record</span></td><td class=\\\"small\\\">Court case-status portal</td><td class=\\\"small\\\">Not published</td></tr></tbody>\\n</table></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Right of reply\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"reply reply--none\\\"><strong>Registration office employee (name withheld)</strong><p class=\\\"small muted\\\">Questions sent 5 Jun 2026 by letter via counsel of record; deadline 19 Jun 2026.</p><p class=\\\"small\\\" style=\\\"margin-top:8px\\\">No response had been received by the deadline. This should not be read as an admission. We will add any response we receive.</p></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Legal and appeal status\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"callout\\\"><p class=\\\"callout__label\\\">As at 21 Oct 2026</p><p style=\\\"margin:0\\\">Chargesheet filed before the special court. Trial pending; charges not yet framed as at last-checked date.</p></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Correction history\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<ul style=\\\"padding-left:18px\\\">\\n\\n<li><strong>v1 · first published</strong></li>\\n</ul>\"}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}",
+            "mobiledoc": null,
+            "custom_excerpt": "The anti-corruption agency registered a case after a complainant alleged that a registration-office employee demanded a payment to register a sale deed. The agency has filed a chargesheet. The trial has not concluded and no finding of guilt has been made.",
+            "published_at": null,
+            "created_at": "2026-06-30T09:00:00.000Z",
+            "updated_at": "2026-06-30T09:00:00.000Z"
+          },
+          {
+            "id": "2a6431d948ec9391ee438ffc",
+            "title": "Unauthorised layout in lake buffer zone: demolition notice and partial compliance",
+            "slug": "sample-unauthorised-layout-lake-buffer",
+            "type": "post",
+            "status": "draft",
+            "visibility": "public",
+            "featured": 0,
+            "lexical": "{\"root\":{\"children\":[{\"type\":\"html\",\"version\":1,\"html\":\"<dl class=\\\"facts\\\">\\n  <div><dt>Record ID</dt><dd class=\\\"mono\\\">SYN-0004</dd></div>\\n  <div><dt>Location</dt><dd>Sample Cheruvu area, Sangareddy</dd></div>\\n  <div><dt>State today</dt><dd>Telangana</dd></div>\\n  <div><dt>Jurisdiction at event</dt><dd>Telangana</dd></div>\\n  <div><dt>Period</dt><dd>1 Feb 2021 – ongoing</dd></div>\\n  <div><dt>Last checked</dt><dd>15 Oct 2026</dd></div>\\n  <div><dt>Version</dt><dd>v1 · 8 Jul 2026</dd></div>\\n</dl>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Summary\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"The planning authority recorded that a 12-acre plotted layout was developed without layout permission and that part of it fell within the full tank level buffer of a lake. It issued show-cause and demolition notices. Inspection records show that roads within the buffer were removed but plot boundary walls remain.\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"paragraph\",\"version\":1},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Claims and evidence\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<p class=\\\"muted small\\\">Each material assertion is stated separately. A source proves only what it actually records.</p>\\n<div class=\\\"claim\\\">\\n  <div class=\\\"claim__head\\\"><span><span class=\\\"mono\\\">Claim C1</span> · 2022 · concerns Example Layout Ventures LLP (fictional)</span><span class=\\\"vs vs--verified-against-original\\\">Checked against original record</span></div>\\n  <p class=\\\"claim__text\\\">The planning authority found that the layout was developed without layout permission.</p>\\n  <ul class=\\\"claim__ev\\\"><li><span class=\\\"rel rel--supports\\\">supports</span><a href=\\\"#doc-S1\\\">Final order on unauthorised layout, Sy. No. 101–108 (sample)</a><span class=\\\"muted\\\">Order para 6 · Class B</span></li></ul>\\n</div>\\n<div class=\\\"claim\\\">\\n  <div class=\\\"claim__head\\\"><span><span class=\\\"mono\\\">Claim C2</span> · 2022</span><span class=\\\"vs vs--verified-against-original\\\">Checked against original record</span></div>\\n  <p class=\\\"claim__text\\\">The authority&#39;s survey placed about 3.1 acres of the layout inside the lake&#39;s buffer zone.</p>\\n  <ul class=\\\"claim__ev\\\"><li><span class=\\\"rel rel--supports\\\">supports</span><a href=\\\"#doc-S1\\\">Final order on unauthorised layout, Sy. No. 101–108 (sample)</a><span class=\\\"muted\\\">Annexure II — survey sketch · Class B</span></li><li><span class=\\\"rel rel--context\\\">context</span><a href=\\\"#doc-S2\\\">Compliance inspection report</a><span class=\\\"muted\\\">Field inspection report p. 3 · Class B</span></li></ul>\\n</div>\\n<div class=\\\"claim\\\">\\n  <div class=\\\"claim__head\\\"><span><span class=\\\"mono\\\">Claim C3</span> · Jan 2026</span><span class=\\\"vs vs--verified-against-original\\\">Checked against original record</span></div>\\n  <p class=\\\"claim__text\\\">A later inspection recorded that internal roads in the buffer were removed but boundary walls remained.</p>\\n  <ul class=\\\"claim__ev\\\"><li><span class=\\\"rel rel--supports\\\">supports</span><a href=\\\"#doc-S2\\\">Compliance inspection report</a><span class=\\\"muted\\\">Inspection report, findings 2–3 · Class B</span></li></ul>\\n</div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Timeline\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<ol class=\\\"timeline\\\">\\n<li><time datetime=\\\"2021-02-01\\\">1 Feb 2021</time><strong>Development observed</strong><p>Plot demarcation first visible on dated satellite imagery.</p></li>\\n<li><time datetime=\\\"2022-04-12\\\">12 Apr 2022</time><strong>Show-cause notice</strong><p>Notice issued to developer. · Urban development authority</p></li>\\n<li><time datetime=\\\"2022-10-04\\\">4 Oct 2022</time><strong>Final order</strong><p>Demolition of buffer-zone works ordered. · Urban development authority · <span class=\\\"mono\\\">SYN-UDA-ENF-2022-311</span> · <a href=\\\"#doc-S1\\\">source</a></p></li>\\n<li><time datetime=\\\"2026-01-19\\\">19 Jan 2026</time><strong>Compliance inspection</strong><p>Partial compliance recorded. · Urban development authority · <a href=\\\"#doc-S2\\\">source</a></p></li>\\n</ol>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Parties and roles\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"table-scroll\\\"><table class=\\\"data\\\">\\n<thead><tr><th scope=\\\"col\\\">Party</th><th scope=\\\"col\\\">Type</th><th scope=\\\"col\\\">Role in this record</th></tr></thead>\\n<tbody><tr><td>Example Layout Ventures LLP (fictional)</td><td class=\\\"muted\\\">company</td><td>Layout developer</td></tr><tr><td>Urban development authority (sample)</td><td class=\\\"muted\\\">public authority</td><td>Planning and enforcement authority</td></tr></tbody>\\n</table></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Financial amounts\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<p class=\\\"muted\\\">No financial amounts are part of this record.</p>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Documents\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<p class=\\\"muted small\\\">Original files are held privately with a recorded hash and chain of custody. Where a redacted public copy exists it has had personal data and metadata removed.</p>\\n<div class=\\\"table-scroll\\\"><table class=\\\"data\\\">\\n<thead><tr><th scope=\\\"col\\\">Document</th><th scope=\\\"col\\\">Class</th><th scope=\\\"col\\\">Obtained</th><th scope=\\\"col\\\">Public copy</th></tr></thead>\\n<tbody><tr id=\\\"doc-S1\\\"><td><strong>Final order on unauthorised layout, Sy. No. 101–108 (sample)</strong><br><span class=\\\"muted small\\\">Authority order · Urban development authority (sample) · 4 Oct 2022</span><br><span class=\\\"mono muted\\\">SYN-UDA-ENF-2022-311</span></td><td title=\\\"Official adjudicatory or audit finding\\\"><strong>B</strong><br><span class=\\\"small muted\\\">Official adjudicatory or audit finding</span></td><td class=\\\"small\\\">Certified copy via RTI</td><td class=\\\"small\\\">Redacted copy (sample — no file)</td></tr><tr id=\\\"doc-S2\\\"><td><strong>Compliance inspection report</strong><br><span class=\\\"muted small\\\">Inspection report · Urban development authority (sample) · 19 Jan 2026</span><br><span class=\\\"mono muted\\\">SYN-UDA-INSP-2026-014</span></td><td title=\\\"Official adjudicatory or audit finding\\\"><strong>B</strong><br><span class=\\\"small muted\\\">Official adjudicatory or audit finding</span></td><td class=\\\"small\\\">RTI response</td><td class=\\\"small\\\">Redacted copy (sample — no file)</td></tr></tbody>\\n</table></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Right of reply\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"reply\\\"><strong>Example Layout Ventures LLP (fictional)</strong><p class=\\\"small muted\\\">Questions sent 10 Jun 2026 by email and courier to registered office; deadline 24 Jun 2026. Response received 22 Jun 2026.</p><blockquote>The developer said plots were sold only outside the buffer and that boundary walls will be removed after a pending boundary resurvey.</blockquote></div>\\n<div class=\\\"reply\\\"><strong>Urban development authority (sample)</strong><p class=\\\"small muted\\\">Questions sent 10 Jun 2026 by letter to commissioner&#39;s office; deadline 24 Jun 2026. Response received 2 Jul 2026.</p><blockquote>The authority confirmed the inspection findings and said a further compliance visit is scheduled.</blockquote></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Legal and appeal status\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"callout\\\"><p class=\\\"callout__label\\\">As at 15 Oct 2026</p><p style=\\\"margin:0\\\">Final order of the planning authority in force. No court challenge found on the case-status record as at last-checked date. Compliance partially recorded.</p></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Correction history\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<ul style=\\\"padding-left:18px\\\">\\n\\n<li><strong>v1 · first published</strong></li>\\n</ul>\"}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}",
+            "mobiledoc": null,
+            "custom_excerpt": "The planning authority recorded that a 12-acre plotted layout was developed without layout permission and that part of it fell within the full tank level buffer of a lake. It issued show-cause and demolition notices.",
+            "published_at": null,
+            "created_at": "2026-07-08T09:00:00.000Z",
+            "updated_at": "2026-07-08T09:00:00.000Z"
+          },
+          {
+            "id": "a757d2e86d0e10990022d0c6",
+            "title": "Stalled apartment project: buyers' complaints pending before regulator",
+            "slug": "sample-stalled-apartment-project-buyers",
+            "type": "post",
+            "status": "draft",
+            "visibility": "public",
+            "featured": 0,
+            "lexical": "{\"root\":{\"children\":[{\"type\":\"html\",\"version\":1,\"html\":\"<dl class=\\\"facts\\\">\\n  <div><dt>Record ID</dt><dd class=\\\"mono\\\">SYN-0005</dd></div>\\n  <div><dt>Location</dt><dd>Sample Puram, Visakhapatnam</dd></div>\\n  <div><dt>State today</dt><dd>Andhra Pradesh</dd></div>\\n  <div><dt>Jurisdiction at event</dt><dd>Andhra Pradesh</dd></div>\\n  <div><dt>Period</dt><dd>15 Sept 2020 – ongoing</dd></div>\\n  <div><dt>Last checked</dt><dd>31 Oct 2026</dd></div>\\n  <div><dt>Version</dt><dd>v1 · 31 Oct 2026</dd></div>\\n</dl>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Summary\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Buyers in an apartment project say construction has been halted since 2023 and that payments were collected beyond the stage of construction. Complaints have been filed with the regulator and are pending. The regulator has not made a finding.\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"paragraph\",\"version\":1},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Claims and evidence\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<p class=\\\"muted small\\\">Each material assertion is stated separately. A source proves only what it actually records.</p>\\n<div class=\\\"claim\\\">\\n  <div class=\\\"claim__head\\\"><span><span class=\\\"mono\\\">Claim C1</span> · 2025–2026 · concerns Sample Coastal Homes Pvt Ltd (fictional)</span><span class=\\\"vs vs--verified-against-original\\\">Checked against original record</span></div>\\n  <p class=\\\"claim__text\\\">Twenty-two buyers have filed complaints with the regulator alleging that construction stopped in 2023.</p>\\n  <ul class=\\\"claim__ev\\\"><li><span class=\\\"rel rel--supports\\\">supports</span><a href=\\\"#doc-S1\\\">Complaint status report</a><span class=\\\"muted\\\">Complaint status report rows 4–25 · Class B</span></li></ul>\\n</div>\\n<div class=\\\"claim\\\">\\n  <div class=\\\"claim__head\\\"><span><span class=\\\"mono\\\">Claim C2</span> · 2023</span><span class=\\\"vs vs--attributed\\\">Attributed account</span></div>\\n  <p class=\\\"claim__text\\\">Buyers interviewed by our researchers said they had paid up to 80% of the price while the structure had reached the fourth of twelve floors.</p>\\n  <ul class=\\\"claim__ev\\\"><li><span class=\\\"rel rel--supports\\\">supports</span><a href=\\\"#doc-S2\\\">Buyer interviews, Sep 2026</a><span class=\\\"muted\\\">Interviews 1–5 (identities protected) · Class E</span></li><li><span class=\\\"rel rel--supports\\\">supports</span><a href=\\\"#doc-S3\\\">Buyer payment receipts (5 buyers)</a><span class=\\\"muted\\\">Payment receipts, redacted · Class D</span></li></ul>\\n</div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Timeline\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<ol class=\\\"timeline\\\">\\n<li><time datetime=\\\"2020-09-15\\\">15 Sept 2020</time><strong>Project launched</strong><p>Bookings opened.</p></li>\\n<li><time datetime=\\\"2023-03-01\\\">1 Mar 2023</time><strong>Construction halted</strong><p>According to buyers interviewed; date not independently confirmed.</p></li>\\n<li><time datetime=\\\"2025-12-04\\\">4 Dec 2025</time><strong>Complaints filed</strong><p>First of 22 complaints filed. · State RERA · <a href=\\\"#doc-S1\\\">source</a></p></li>\\n</ol>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Parties and roles\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"table-scroll\\\"><table class=\\\"data\\\">\\n<thead><tr><th scope=\\\"col\\\">Party</th><th scope=\\\"col\\\">Type</th><th scope=\\\"col\\\">Role in this record</th></tr></thead>\\n<tbody><tr><td>Sample Coastal Homes Pvt Ltd (fictional)</td><td class=\\\"muted\\\">company</td><td>Promoter</td></tr><tr><td>22 buyers (names withheld)</td><td class=\\\"muted\\\">buyer group</td><td>Complainants</td></tr></tbody>\\n</table></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Financial amounts\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"table-scroll\\\"><table class=\\\"data\\\">\\n<thead><tr><th scope=\\\"col\\\">Amount</th><th scope=\\\"col\\\">Type</th><th scope=\\\"col\\\">Basis</th></tr></thead>\\n<tbody><tr><td class=\\\"amount\\\">₹13.2 crore</td><td><span class=\\\"amt-type amt-type--alleged\\\" title=\\\"Amount stated in a complaint or allegation; not established.\\\">Alleged</span></td><td>Total paid as stated in the 22 complaints</td></tr><tr><td class=\\\"amount\\\">₹2.16 crore</td><td><span class=\\\"amt-type amt-type--documented\\\" title=\\\"Amount shown in a primary record we hold.\\\">Documented</span></td><td>Sum of receipts we have sighted for 5 buyers · <a href=\\\"#doc-S3\\\">source</a></td></tr></tbody>\\n</table></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Documents\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<p class=\\\"muted small\\\">Original files are held privately with a recorded hash and chain of custody. Where a redacted public copy exists it has had personal data and metadata removed.</p>\\n<div class=\\\"table-scroll\\\"><table class=\\\"data\\\">\\n<thead><tr><th scope=\\\"col\\\">Document</th><th scope=\\\"col\\\">Class</th><th scope=\\\"col\\\">Obtained</th><th scope=\\\"col\\\">Public copy</th></tr></thead>\\n<tbody><tr id=\\\"doc-S1\\\"><td><strong>Complaint status report</strong><br><span class=\\\"muted small\\\">Regulator status report · State RERA (sample) · 1 Oct 2026</span><br><span class=\\\"mono muted\\\">SYN-APRERA-MIS-2026-10</span><p class=\\\"small muted\\\">Note: Status report confirms filing only; it records no finding.</p></td><td title=\\\"Official adjudicatory or audit finding\\\"><strong>B</strong><br><span class=\\\"small muted\\\">Official adjudicatory or audit finding</span></td><td class=\\\"small\\\">Official portal report</td><td class=\\\"small\\\">Redacted copy (sample — no file)</td></tr><tr id=\\\"doc-S2\\\"><td><strong>Buyer interviews, Sep 2026</strong><br><span class=\\\"muted small\\\">Interviews · Project researchers · 20 Sept 2026</span><br><span class=\\\"mono muted\\\">SYN-INT-2026-031</span></td><td title=\\\"First-hand testimony\\\"><strong>E</strong><br><span class=\\\"small muted\\\">First-hand testimony</span></td><td class=\\\"small\\\">In-person interviews with consent</td><td class=\\\"small\\\">Not published</td></tr><tr id=\\\"doc-S3\\\"><td><strong>Buyer payment receipts (5 buyers)</strong><br><span class=\\\"muted small\\\">Payment receipts · Issued by promoter · 1 May 2023</span><br><span class=\\\"mono muted\\\">SYN-RCPT-BUNDLE-07</span></td><td title=\\\"Primary private record\\\"><strong>D</strong><br><span class=\\\"small muted\\\">Primary private record</span></td><td class=\\\"small\\\">Supplied by buyers; originals sighted</td><td class=\\\"small\\\">Redacted copy (sample — no file)</td></tr></tbody>\\n</table></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Right of reply\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"reply reply--none\\\"><strong>Sample Coastal Homes Pvt Ltd (fictional)</strong><p class=\\\"small muted\\\">Questions sent 14 Oct 2026 by email and registered post; deadline 28 Oct 2026.</p><p class=\\\"small\\\" style=\\\"margin-top:8px\\\">No response had been received by the deadline. This should not be read as an admission. We will add any response we receive.</p></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Legal and appeal status\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"callout\\\"><p class=\\\"callout__label\\\">As at 31 Oct 2026</p><p style=\\\"margin:0\\\">Complaints pending before the regulator; first hearing held, next date not yet listed.</p></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Correction history\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<ul style=\\\"padding-left:18px\\\">\\n\\n<li><strong>v1 · first published</strong></li>\\n</ul>\"}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}",
+            "mobiledoc": null,
+            "custom_excerpt": "Buyers in an apartment project say construction has been halted since 2023 and that payments were collected beyond the stage of construction. Complaints have been filed with the regulator and are pending. The regulator has not made a finding.",
+            "published_at": null,
+            "created_at": "2026-10-31T09:00:00.000Z",
+            "updated_at": "2026-10-31T09:00:00.000Z"
+          },
+          {
+            "id": "d234a674d9db45ad3f7d41e5",
+            "title": "Sample investigation: what happens to buyers when a project stalls",
+            "slug": "sample-investigation-stalled-projects",
+            "type": "post",
+            "status": "draft",
+            "visibility": "public",
+            "featured": 0,
+            "lexical": "{\"root\":{\"children\":[{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"synthetic\\\" role=\\\"note\\\"><strong>Synthetic sample.</strong> This piece demonstrates the investigation format. It refers only to invented sample records and describes no real person, company or event.</div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"An investigation explains a pattern or a single case in depth. It is written and edited in Ghost, but it does not carry its own evidence: every material claim points back to a structured case record, where the claim, its sources, its current status and the subject's response are set out one by one.\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"paragraph\",\"version\":1},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"How the pieces connect\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"This sample is linked to SYN-0002 (RERA refund order for delayed tower project; promoter's appeal pending) and SYN-0005 (Stalled apartment project: buyers' complaints pending before regulator). The link is made with internal Ghost tags of the form #case-SYN-0002, which put each record's card at the end of the article and list the article on the record's own page.\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"paragraph\",\"version\":1},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"What an investigation may not do\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"It may not state as fact anything the linked records only allege, and it must use the status wording for each record: a complaint received is not a finding, and charges filed are not a conviction. A complaint, FIR or chargesheet is not a finding of guilt.\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"paragraph\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}",
+            "mobiledoc": null,
+            "custom_excerpt": "A format demonstration. It shows how a long-form piece sits on top of structured case records. Every record it refers to is synthetic.",
+            "published_at": null,
+            "created_at": "2026-10-30T09:00:00.000Z",
+            "updated_at": "2026-10-30T09:00:00.000Z"
+          },
+          {
+            "id": "0804d7656b12652efde8deeb",
+            "title": "Methodology",
+            "slug": "methodology",
+            "type": "page",
+            "status": "draft",
+            "visibility": "public",
+            "featured": 0,
+            "lexical": "{\"root\":{\"children\":[{\"type\":\"html\",\"version\":1,\"html\":\"<section class=\\\"section\\\"><div class=\\\"split\\\"><div><h2>Evidence hierarchy</h2><p class=\\\"muted\\\">Every source is classed A–F. The class decides how we may describe what it shows. An FIR proves a case was registered — not that the accused committed the offence.</p></div><div class=\\\"ev-grid\\\"><div class=\\\"ev\\\"><span class=\\\"ev__class\\\">A</span><h3>Final judicial finding</h3><p>Final judgment, conviction or acquittal, final appellate outcome.</p><p><strong>How we describe it:</strong> State the precise finding, date, issues decided and appeal status.</p></div><div class=\\\"ev\\\"><span class=\\\"ev__class\\\">B</span><h3>Official adjudicatory or audit finding</h3><p>RERA order, tribunal order, audit observation, departmental finding.</p><p><strong>How we describe it:</strong> Attribute to the authority and quote within its scope. An audit observation is not a conviction.</p></div><div class=\\\"ev\\\"><span class=\\\"ev__class\\\">C</span><h3>Formal investigative record</h3><p>FIR, trap case, chargesheet, prosecution complaint, attachment order.</p><p><strong>How we describe it:</strong> Say “registered”, “filed”, “alleged” or “attached”. State whether investigation or trial is pending.</p></div><div class=\\\"ev\\\"><span class=\\\"ev__class\\\">D</span><h3>Primary private record</h3><p>Agreement, receipt, correspondence, bank statement, survey material.</p><p><strong>How we describe it:</strong> Authenticate origin, context and completeness. Redact third-party personal data.</p></div><div class=\\\"ev\\\"><span class=\\\"ev__class\\\">E</span><h3>First-hand testimony</h3><p>Buyer, witness, former employee or resident interview.</p><p><strong>How we describe it:</strong> Attribute carefully, assess basis of knowledge, corroborate independently.</p></div><div class=\\\"ev\\\"><span class=\\\"ev__class\\\">F</span><h3>Secondary reporting</h3><p>News stories, social posts, public videos.</p><p><strong>How we describe it:</strong> A lead or attributed account only — never the sole basis for a serious allegation.</p></div></div></div></section>\"},{\"type\":\"html\",\"version\":1,\"html\":\"<section class=\\\"section\\\"><div class=\\\"split\\\"><div><h2>Status labels</h2><p class=\\\"muted\\\">The status on a record describes the procedural stage reached — nothing more.</p></div><ol class=\\\"ladder\\\"><li><span><span class=\\\"status status--early\\\"><span class=\\\"status__dot\\\" aria-hidden=\\\"true\\\"></span>Complaint received</span></span><p>A complaint was filed with an identifiable body. A complaint does not establish the claim.</p></li><li><span><span class=\\\"status status--early\\\"><span class=\\\"status__dot\\\" aria-hidden=\\\"true\\\"></span>FIR / investigation</span></span><p>Police or an agency registered or is investigating the allegation. No finding has been made.</p></li><li><span><span class=\\\"status status--proceeding\\\"><span class=\\\"status__dot\\\" aria-hidden=\\\"true\\\"></span>Charges filed</span></span><p>The agency has filed a chargesheet or prosecution complaint. The trial outcome is pending.</p></li><li><span><span class=\\\"status status--finding\\\"><span class=\\\"status__dot\\\" aria-hidden=\\\"true\\\"></span>Regulatory / audit finding</span></span><p>A regulator, tribunal, auditor or department made a specific finding, attributed here within its scope.</p></li><li><span><span class=\\\"status status--proceeding\\\"><span class=\\\"status__dot\\\" aria-hidden=\\\"true\\\"></span>Trial / proceeding pending</span></span><p>A court or tribunal proceeding is still active. See the last-checked date.</p></li><li><span><span class=\\\"status status--finding\\\"><span class=\\\"status__dot\\\" aria-hidden=\\\"true\\\"></span>Judgment / order issued</span></span><p>A court or tribunal decided specific issues. The operative finding is summarised, not one side&#39;s argument.</p></li><li><span><span class=\\\"status status--proceeding\\\"><span class=\\\"status__dot\\\" aria-hidden=\\\"true\\\"></span>Appeal / review pending</span></span><p>An appeal, review or stay is pending. The earlier outcome is not final.</p></li><li><span><span class=\\\"status status--final\\\"><span class=\\\"status__dot\\\" aria-hidden=\\\"true\\\"></span>Closed / final outcome</span></span><p>The proceeding is closed. The exact outcome and any remaining appeal route are stated.</p></li></ol></div></section>\"},{\"type\":\"html\",\"version\":1,\"html\":\"<section class=\\\"section\\\"><div class=\\\"split\\\"><div><h2>Ten-step research workflow</h2><p class=\\\"muted\\\">AI tools may assist with extraction and drafting under human review. They never decide guilt, status or publication.</p></div><ol class=\\\"steps\\\"><li><strong>Lead discovery</strong><p>Candidate leads come from official portals, court records, audit reports, news archives and citizen tips. A lead gets an internal ID and is never published at this stage.</p></li><li><strong>Lead triage</strong><p>We assess public-interest value, relevance to the states and period, potential harm, source reliability, duplication and legal risk.</p></li><li><strong>Record acquisition</strong><p>Official downloads, certified copies, RTI responses, filings, agreements and interviews — with acquisition date and method logged.</p></li><li><strong>Preservation</strong><p>The original is stored read-only with a SHA-256 hash and source reference. Work happens on a copy.</p></li><li><strong>Claim decomposition</strong><p>The story is split into atomic claims: what is asserted, about whom, over what dates, supported by what.</p></li><li><strong>Corroboration</strong><p>Material disputed claims need at least two independent sources where feasible. An original official record is strong evidence of what that record itself states.</p></li><li><strong>Contradiction search</strong><p>We actively look for later orders, stays, reversals, acquittals, corrective action and alternative explanations.</p></li><li><strong>Right of reply</strong><p>Every material subject receives specific, fair questions. We record how and when notice was served and whether a response came.</p></li><li><strong>Pre-publication review</strong><p>An editor checks sourcing and wording; counsel reviews high-risk allegations; a fact-checker verifies amounts and dates; personal data is redacted.</p></li><li><strong>Publication and monitoring</strong><p>A named editor publishes the approved version. We monitor new orders and replies and update status with a visible change history.</p></li></ol></div></section>\"},{\"type\":\"html\",\"version\":1,\"html\":\"<section class=\\\"section\\\"><div class=\\\"split\\\"><div><h2>Labelled money</h2><p class=\\\"muted\\\">Amounts are never blurred together.</p></div><div class=\\\"table-scroll\\\"><table class=\\\"data\\\"><tbody><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;color:var(--ink);width:30%\\\">Alleged</th><td class=\\\"muted\\\">Amount stated in a complaint or allegation; not established.</td></tr><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;color:var(--ink);width:30%\\\">Documented</th><td class=\\\"muted\\\">Amount shown in a primary record we hold.</td></tr><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;color:var(--ink);width:30%\\\">Ordered</th><td class=\\\"muted\\\">Amount directed by a court, regulator or authority.</td></tr><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;color:var(--ink);width:30%\\\">Recovered</th><td class=\\\"muted\\\">Amount confirmed as actually paid or recovered.</td></tr><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;color:var(--ink);width:30%\\\">Estimate</th><td class=\\\"muted\\\">Our calculation; method stated alongside.</td></tr></tbody></table></div></div></section>\"},{\"type\":\"html\",\"version\":1,\"html\":\"<section class=\\\"section\\\"><div class=\\\"split\\\"><div><h2>Scope</h2><p class=\\\"muted\\\">1 January 2011 to 2 November 2026, Telangana and Andhra Pradesh. Some records link to earlier origins or later outcomes.</p></div><div class=\\\"prose\\\"><p><strong>Jurisdiction is recorded as at the event date.</strong> Telangana became a separate state on 2 June 2014. Events before that date are recorded as undivided Andhra Pradesh, with the district and authority as they were at the time. We do not retroactively assign a pre-2014 event to a present-day state without checking.</p>\\n<h3 style=\\\"margin-top:28px\\\">Categories</h3>\\n<div class=\\\"table-scroll\\\"><table class=\\\"data\\\"><tbody><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;width:40%\\\"><a href=\\\"/tag/land-ownership/\\\">Land ownership and land grabbing</a></th><td class=\\\"muted\\\">Competing title claims, forged deeds, assigned-land transfer, government land occupation.</td></tr><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;width:40%\\\"><a href=\\\"/tag/builder-misconduct/\\\">Builder and promoter misconduct</a></th><td class=\\\"muted\\\">Collection before a compliant sale agreement, misrepresentation, duplicate sales, non-delivery.</td></tr><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;width:40%\\\"><a href=\\\"/tag/planning-approval/\\\">Planning and approval irregularities</a></th><td class=\\\"muted\\\">Unauthorised layouts, construction deviations, missing permissions, encroachment.</td></tr><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;width:40%\\\"><a href=\\\"/tag/official-corruption/\\\">Bribery and official corruption</a></th><td class=\\\"muted\\\">Alleged payment demands, trap cases, approvals allegedly influenced by undue advantage.</td></tr><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;width:40%\\\"><a href=\\\"/tag/suspicious-property-money/\\\">Undisclosed or suspicious property money</a></th><td class=\\\"muted\\\">Undervaluation, benami allegations, laundering links, shell-company ownership.</td></tr><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;width:40%\\\"><a href=\\\"/tag/government-allotment/\\\">Government land allotment and public assets</a></th><td class=\\\"muted\\\">Concessional allotment, non-use, change of purpose, unmet conditions.</td></tr><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;width:40%\\\"><a href=\\\"/tag/buyer-harm/\\\">Buyer harm and project failure</a></th><td class=\\\"muted\\\">Delayed possession, refund disputes, hidden charges, missing amenities.</td></tr><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;width:40%\\\"><a href=\\\"/tag/institutional-failure/\\\">Institutional failure</a></th><td class=\\\"muted\\\">Complaints not acted upon, repeated permissions despite known violations.</td></tr></tbody></table></div>\\n<h3 style=\\\"margin-top:28px\\\">Language we avoid</h3>\\n<p>We do not label a transaction “black money”, a person “corrupt” or a company a “scam” unless the evidence and legal status justify exactly that wording. We publish no rankings or scores of people.</p></div></div></section>\"}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}",
+            "mobiledoc": null,
+            "custom_excerpt": "How a lead becomes a published record — and why most leads never do.",
+            "published_at": null,
+            "created_at": "2026-10-30T09:00:00.000Z",
+            "updated_at": "2026-10-30T09:00:00.000Z"
+          },
+          {
+            "id": "45414f602e9e4540140a1772",
+            "title": "Corrections",
+            "slug": "corrections",
+            "type": "page",
+            "status": "draft",
+            "visibility": "public",
+            "featured": 0,
+            "lexical": "{\"root\":{\"children\":[{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"synthetic synthetic--compact\\\" role=\\\"note\\\"><strong>Synthetic sample records.</strong> Invented to demonstrate the format. Not real cases.</div>\\n<div class=\\\"table-scroll\\\"><table class=\\\"data\\\">\\n<thead><tr><th scope=\\\"col\\\">Date</th><th scope=\\\"col\\\">Record</th><th scope=\\\"col\\\">Version</th><th scope=\\\"col\\\">What changed</th></tr></thead>\\n<tbody><tr><td style=\\\"white-space:nowrap\\\">15 Sept 2026</td><td><a href=\\\"/cases/sample-rera-refund-order-tower-project/#correction-history\\\">RERA refund order for delayed tower project; promoter&#39;s appeal pending</a><br><span class=\\\"mono muted\\\">SYN-0002</span></td><td>v2</td><td>Updated to reflect the conditional stay and next hearing date. <span class=\\\"muted small\\\">(legalStatus)</span></td></tr><tr><td style=\\\"white-space:nowrap\\\">2 Apr 2026</td><td><a href=\\\"/cases/sample-allotment-institutional-land-2008/#correction-history\\\">Institutional land allotment: utilisation conditions not met, resumption ordered</a><br><span class=\\\"mono muted\\\">SYN-0001</span></td><td>v3</td><td>Estimate basis clarified; the figure did not change. <span class=\\\"muted small\\\">(financialItems)</span></td></tr><tr><td style=\\\"white-space:nowrap\\\">1 Mar 2026</td><td><a href=\\\"/cases/sample-allotment-institutional-land-2008/#correction-history\\\">Institutional land allotment: utilisation conditions not met, resumption ordered</a><br><span class=\\\"mono muted\\\">SYN-0001</span></td><td>v2</td><td>Added the 2014 jurisdiction change to the timeline for clarity. <span class=\\\"muted small\\\">(timeline)</span></td></tr></tbody>\\n</table></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Our corrections policy\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<ul>\\n<li>Substantiated factual errors are corrected promptly and visibly on the record itself.</li>\\n<li>Status updates (new orders, appeals, stays) are recorded with the date and source.</li>\\n<li>A record is withdrawn only with a public withdrawal notice and an editor’s recorded rationale.</li>\\n<li>Previous versions are retained in our internal audit log.</li>\\n</ul>\\n<p>To report an error, see <a href=\\\"/right-of-reply/\\\">right of reply and corrections requests</a>.</p>\"}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}",
+            "mobiledoc": null,
+            "custom_excerpt": "Every material change to a published record creates a new public version with a dated note. We do not silently delete records.",
+            "published_at": null,
+            "created_at": "2026-10-30T09:00:00.000Z",
+            "updated_at": "2026-10-30T09:00:00.000Z"
+          },
+          {
+            "id": "df4d430b29db193357fed447",
+            "title": "Right of reply",
+            "slug": "right-of-reply",
+            "type": "page",
+            "status": "draft",
+            "visibility": "public",
+            "featured": 0,
+            "lexical": "{\"root\":{\"children\":[{\"type\":\"html\",\"version\":1,\"html\":\"<section class=\\\"section\\\"><div class=\\\"split\\\"><div><h2>Before publication</h2></div><ol class=\\\"steps\\\"><li><strong>We identify every subject</strong><p>Company, promoter, official, department, contractor or other named party in a material claim.</p></li><li><strong>We send specific questions</strong><p>A neutral summary of each claim concerning you, with dates and enough detail for a meaningful answer.</p></li><li><strong>We give a reasonable deadline</strong><p>Proportionate to the story. We keep proof of delivery and follow-up attempts.</p></li><li><strong>We publish your response fairly</strong><p>Including denials, explanations and documents. We do not paraphrase a denial to weaken it.</p></li><li><strong>Silence is not an admission</strong><p>If there is no response, we say when and how we asked — and nothing more.</p></li></ol></div></section>\"},{\"type\":\"html\",\"version\":1,\"html\":\"<section class=\\\"section\\\"><div class=\\\"split\\\"><div><h2>After publication</h2></div><div class=\\\"prose\\\"><p>If you are named in a record, or you believe something is wrong, write to the editor with the record ID (for example <span class=\\\"mono\\\">SYN-0002</span>), the specific statement and any document that shows it is inaccurate or out of date.</p>\\n<div class=\\\"callout\\\"><p class=\\\"callout__label\\\">Contact channel — being set up</p><p style=\\\"margin:0\\\">A dedicated corrections address will be published here before the first real record goes live. Every request is logged and answered, and any resulting change appears on the <a href=\\\"/corrections/\\\">corrections page</a>.</p></div></div></div></section>\"}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}",
+            "mobiledoc": null,
+            "custom_excerpt": "Anyone named in a record is asked specific questions before publication, and can respond or request a correction afterwards.",
+            "published_at": null,
+            "created_at": "2026-10-30T09:00:00.000Z",
+            "updated_at": "2026-10-30T09:00:00.000Z"
+          },
+          {
+            "id": "11c3f3a471b030649760c7dc",
+            "title": "Funding & independence",
+            "slug": "independence",
+            "type": "page",
+            "status": "draft",
+            "visibility": "public",
+            "featured": 0,
+            "lexical": "{\"root\":{\"children\":[{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Editorial independence\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<ul>\\n<li>No developer, broker, political party, official or complainant can pay to add, suppress, remove or alter a case.</li>\\n<li>Sponsorship, advertising and donations are kept separate from case selection and editorial decisions.</li>\\n<li>Political and commercial affiliations play no part in which cases we investigate.</li>\\n<li>Serious allegations follow a two-person rule: one researcher builds the case; a second editor independently checks each material claim.</li>\\n<li>Corrections are public and versioned.</li>\\n</ul>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Funding sources\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"callout\\\" style=\\\"max-width:46rem\\\"><p class=\\\"callout__label\\\">To be published before launch</p><p style=\\\"margin:0\\\">A full list of funders and our conflict-of-interest policy will appear here before the archive publishes its first real record.</p></div>\"}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}",
+            "mobiledoc": null,
+            "custom_excerpt": "No one can pay to add, suppress, remove or alter a record.",
+            "published_at": null,
+            "created_at": "2026-10-30T09:00:00.000Z",
+            "updated_at": "2026-10-30T09:00:00.000Z"
+          },
+          {
+            "id": "c59d40babf4d089db36568bb",
+            "title": "Report a concern",
+            "slug": "report",
+            "type": "page",
+            "status": "draft",
+            "visibility": "public",
+            "featured": 0,
+            "lexical": "{\"root\":{\"children\":[{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"intake-closed\\\" role=\\\"status\\\"><h2 style=\\\"font-size:1.25rem\\\">Intake is not open yet</h2><p style=\\\"margin:0\\\">We will accept reports only after an independent security review and legal sign-off on how submissions are stored, who can see them and how long they are kept. The form below shows what intake will ask for; it cannot be submitted.</p></div>\\n<div class=\\\"split\\\">\\n<div class=\\\"prose\\\">\\n<h2>Before you share anything</h2>\\n<p><strong>We cannot promise absolute anonymity.</strong> When intake opens, this page will explain exactly what the channel records (for example IP addresses or email headers), who on the team can see your identity, and when we might be legally compelled to share information.</p>\\n<p>Your identity will be stored separately from any case record. Case editors will not see it by default.</p>\\n<h3 style=\\\"margin-top:24px\\\">Never send us</h3>\\n<ul class=\\\"dont\\\"><li>Aadhaar or PAN numbers</li><li>Full bank account or card numbers</li><li>Passwords or login details</li><li>Unrelated family information</li><li>Material obtained by trespass, hacking or unlawful recording</li></ul>\\n</div>\\n<form aria-label=\\\"Report form preview (disabled)\\\" onsubmit=\\\"return false\\\">\\n<fieldset disabled><legend>What happened</legend>\\n<div class=\\\"field\\\"><label for=\\\"r-cat\\\">Type of concern</label><select id=\\\"r-cat\\\"><option>Land ownership and land grabbing</option><option>Builder and promoter misconduct</option><option>Planning and approval irregularities</option><option>Bribery and official corruption</option><option>Undisclosed or suspicious property money</option><option>Government land allotment and public assets</option><option>Buyer harm and project failure</option><option>Institutional failure</option></select></div>\\n<div class=\\\"field-row\\\"><div class=\\\"field\\\"><label for=\\\"r-state\\\">State</label><select id=\\\"r-state\\\"><option>Telangana</option><option>Andhra Pradesh</option></select></div><div class=\\\"field\\\"><label for=\\\"r-district\\\">District</label><input id=\\\"r-district\\\"></div></div>\\n<div class=\\\"field\\\"><label for=\\\"r-desc\\\">Describe what you know first-hand (English or Telugu)</label><textarea id=\\\"r-desc\\\"></textarea></div>\\n<div class=\\\"field\\\"><label for=\\\"r-refs\\\">Any official reference numbers (RERA, FIR, court case, survey number)</label><input id=\\\"r-refs\\\"></div>\\n</fieldset>\\n<fieldset disabled><legend>Contact (optional)</legend>\\n<div class=\\\"field\\\"><label for=\\\"r-contact\\\">A safe way to reach you</label><input id=\\\"r-contact\\\"></div>\\n<p class=\\\"small muted\\\" style=\\\"margin:0\\\">File upload will be added only after malware scanning, quarantine storage and encryption are in place.</p>\\n</fieldset>\\n<button type=\\\"button\\\" class=\\\"btn btn--primary\\\" disabled>Submission not yet available</button>\\n</form>\\n</div>\"}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}",
+            "mobiledoc": null,
+            "custom_excerpt": "Tips and documents help us find patterns. They are a starting point for research — never published as received.",
+            "published_at": null,
+            "created_at": "2026-10-30T09:00:00.000Z",
+            "updated_at": "2026-10-30T09:00:00.000Z"
+          },
+          {
+            "id": "5b6ce91feef5e80cc32a7933",
+            "title": "Explore by geography",
+            "slug": "explore",
+            "type": "page",
+            "status": "draft",
+            "visibility": "public",
+            "featured": 0,
+            "lexical": "{\"root\":{\"children\":[],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}",
+            "mobiledoc": null,
+            "custom_excerpt": "Records by district and state, with jurisdiction recorded as it was at the time of each event.",
+            "published_at": null,
+            "created_at": "2026-10-30T09:00:00.000Z",
+            "updated_at": "2026-10-30T09:00:00.000Z"
+          }
+        ],
+        "tags": [
+          {
+            "id": "25a2c4f9a4198d895365c2f8",
+            "name": "Case record",
+            "slug": "case",
+            "visibility": "public",
+            "description": "Structured records of documented events."
+          },
+          {
+            "id": "971a90fdbc5dba7f047b7f30",
+            "name": "Investigation",
+            "slug": "investigation",
+            "visibility": "public",
+            "description": "Long-form reported pieces."
+          },
+          {
+            "id": "8e399a9ee1509f4797f1626e",
+            "name": "Trust infrastructure",
+            "slug": "trust",
+            "visibility": "public"
+          },
+          {
+            "id": "53567619089ec630c3692097",
+            "name": "Archive",
+            "slug": "archive",
+            "visibility": "public"
+          },
+          {
+            "id": "4d852ba1a87d8317a1a65e35",
+            "name": "Land ownership and land grabbing",
+            "slug": "land-ownership",
+            "visibility": "public",
+            "description": "Competing title claims, forged deeds, assigned-land transfer, government land occupation."
+          },
+          {
+            "id": "eef44c7bfcbc6ee07b6e275f",
+            "name": "Builder and promoter misconduct",
+            "slug": "builder-misconduct",
+            "visibility": "public",
+            "description": "Collection before a compliant sale agreement, misrepresentation, duplicate sales, non-delivery."
+          },
+          {
+            "id": "7ae63ef3138b3979cc9e790e",
+            "name": "Planning and approval irregularities",
+            "slug": "planning-approval",
+            "visibility": "public",
+            "description": "Unauthorised layouts, construction deviations, missing permissions, encroachment."
+          },
+          {
+            "id": "8644cadb53f46a2da01afdea",
+            "name": "Bribery and official corruption",
+            "slug": "official-corruption",
+            "visibility": "public",
+            "description": "Alleged payment demands, trap cases, approvals allegedly influenced by undue advantage."
+          },
+          {
+            "id": "8ed5c67724bb90673ae95234",
+            "name": "Undisclosed or suspicious property money",
+            "slug": "suspicious-property-money",
+            "visibility": "public",
+            "description": "Undervaluation, benami allegations, laundering links, shell-company ownership."
+          },
+          {
+            "id": "fa8a679a488d07f1892836c9",
+            "name": "Government land allotment and public assets",
+            "slug": "government-allotment",
+            "visibility": "public",
+            "description": "Concessional allotment, non-use, change of purpose, unmet conditions."
+          },
+          {
+            "id": "9d3986f29fb2b3ba633fcccf",
+            "name": "Buyer harm and project failure",
+            "slug": "buyer-harm",
+            "visibility": "public",
+            "description": "Delayed possession, refund disputes, hidden charges, missing amenities."
+          },
+          {
+            "id": "bef5f382e61e953e1de1c091",
+            "name": "Institutional failure",
+            "slug": "institutional-failure",
+            "visibility": "public",
+            "description": "Complaints not acted upon, repeated permissions despite known violations."
+          },
+          {
+            "id": "d7b20b246a30f6ec82e3d54a",
+            "name": "Rangareddy",
+            "slug": "rangareddy",
+            "visibility": "public"
+          },
+          {
+            "id": "fa172c7e82bd8028f335eb7a",
+            "name": "Telangana",
+            "slug": "telangana",
+            "visibility": "public"
+          },
+          {
+            "id": "5ba839f4e252b6b1ef91f269",
+            "name": "#status-closed",
+            "slug": "hash-status-closed",
+            "visibility": "internal"
+          },
+          {
+            "id": "5712015dbe85e0933e0c338b",
+            "name": "#case-SYN-0001",
+            "slug": "hash-case-syn-0001",
+            "visibility": "internal"
+          },
+          {
+            "id": "2cf0f40b3fcf0b272e88cde0",
+            "name": "#synthetic",
+            "slug": "hash-synthetic",
+            "visibility": "internal"
+          },
+          {
+            "id": "3100ffaba845cdc535c44c6e",
+            "name": "#undivided-ap",
+            "slug": "hash-undivided-ap",
+            "visibility": "internal"
+          },
+          {
+            "id": "498c66a1685a1c879705881c",
+            "name": "Medchal-Malkajgiri",
+            "slug": "medchal-malkajgiri",
+            "visibility": "public"
+          },
+          {
+            "id": "8da442b8a661547847e9615f",
+            "name": "#status-appeal-pending",
+            "slug": "hash-status-appeal-pending",
+            "visibility": "internal"
+          },
+          {
+            "id": "46ba98dca2069f4d72a1ab5f",
+            "name": "#case-SYN-0002",
+            "slug": "hash-case-syn-0002",
+            "visibility": "internal"
+          },
+          {
+            "id": "3a1ddbd6291ee444f5a43be8",
+            "name": "Guntur",
+            "slug": "guntur",
+            "visibility": "public"
+          },
+          {
+            "id": "a767c08fb471fa683c368aff",
+            "name": "Andhra Pradesh",
+            "slug": "andhra-pradesh",
+            "visibility": "public"
+          },
+          {
+            "id": "27b571bbfcae358286796b56",
+            "name": "#status-charges-filed",
+            "slug": "hash-status-charges-filed",
+            "visibility": "internal"
+          },
+          {
+            "id": "9eb495a20b50bd628646a835",
+            "name": "#case-SYN-0003",
+            "slug": "hash-case-syn-0003",
+            "visibility": "internal"
+          },
+          {
+            "id": "dfbca66ad30bb81b63528ee2",
+            "name": "Sangareddy",
+            "slug": "sangareddy",
+            "visibility": "public"
+          },
+          {
+            "id": "c4c422b9eee519475c444b56",
+            "name": "#status-regulatory-finding",
+            "slug": "hash-status-regulatory-finding",
+            "visibility": "internal"
+          },
+          {
+            "id": "aeab21dc18e29232a2db1837",
+            "name": "#case-SYN-0004",
+            "slug": "hash-case-syn-0004",
+            "visibility": "internal"
+          },
+          {
+            "id": "ec0993f7ce9bc4b795a955f2",
+            "name": "Visakhapatnam",
+            "slug": "visakhapatnam",
+            "visibility": "public"
+          },
+          {
+            "id": "9c6ca8c7210ed269fa29163b",
+            "name": "#status-complaint-received",
+            "slug": "hash-status-complaint-received",
+            "visibility": "internal"
+          },
+          {
+            "id": "baed30c23a8b025081912192",
+            "name": "#case-SYN-0005",
+            "slug": "hash-case-syn-0005",
+            "visibility": "internal"
+          },
+          {
+            "id": "40a45fce7c3e0f63ebf6f31d",
+            "name": "Secure intake",
+            "slug": "secure-intake",
+            "visibility": "public"
+          }
+        ],
+        "posts_tags": [
+          {
+            "id": "0b413416856df841a23e0a38",
+            "post_id": "5d981ce9d18776035a574cd8",
+            "tag_id": "25a2c4f9a4198d895365c2f8",
+            "sort_order": 0
+          },
+          {
+            "id": "bec094bb4d725526e2d95a8f",
+            "post_id": "5d981ce9d18776035a574cd8",
+            "tag_id": "fa8a679a488d07f1892836c9",
+            "sort_order": 1
+          },
+          {
+            "id": "fffd6b983bc1c5ac236fce40",
+            "post_id": "5d981ce9d18776035a574cd8",
+            "tag_id": "d7b20b246a30f6ec82e3d54a",
+            "sort_order": 2
+          },
+          {
+            "id": "feb881e0f078b8592b705431",
+            "post_id": "5d981ce9d18776035a574cd8",
+            "tag_id": "fa172c7e82bd8028f335eb7a",
+            "sort_order": 3
+          },
+          {
+            "id": "b45c281ff36a573cdc4f29ef",
+            "post_id": "5d981ce9d18776035a574cd8",
+            "tag_id": "5ba839f4e252b6b1ef91f269",
+            "sort_order": 4
+          },
+          {
+            "id": "68605c24a86ecb2872542a5d",
+            "post_id": "5d981ce9d18776035a574cd8",
+            "tag_id": "5712015dbe85e0933e0c338b",
+            "sort_order": 5
+          },
+          {
+            "id": "f68072e3648d27e81cc9cbf6",
+            "post_id": "5d981ce9d18776035a574cd8",
+            "tag_id": "2cf0f40b3fcf0b272e88cde0",
+            "sort_order": 6
+          },
+          {
+            "id": "880b6d7ee7b0394ce3dbfca5",
+            "post_id": "5d981ce9d18776035a574cd8",
+            "tag_id": "3100ffaba845cdc535c44c6e",
+            "sort_order": 7
+          },
+          {
+            "id": "b4fe54e14c677d93dfe96002",
+            "post_id": "37ce34eaba5caabee499209c",
+            "tag_id": "25a2c4f9a4198d895365c2f8",
+            "sort_order": 0
+          },
+          {
+            "id": "73b8970d25122ee33d67d50a",
+            "post_id": "37ce34eaba5caabee499209c",
+            "tag_id": "9d3986f29fb2b3ba633fcccf",
+            "sort_order": 1
+          },
+          {
+            "id": "610369e2615d7978b133c258",
+            "post_id": "37ce34eaba5caabee499209c",
+            "tag_id": "498c66a1685a1c879705881c",
+            "sort_order": 2
+          },
+          {
+            "id": "db99c1ba1cd3dc6db019233e",
+            "post_id": "37ce34eaba5caabee499209c",
+            "tag_id": "fa172c7e82bd8028f335eb7a",
+            "sort_order": 3
+          },
+          {
+            "id": "4d169076dcb23c5f935b24b9",
+            "post_id": "37ce34eaba5caabee499209c",
+            "tag_id": "8da442b8a661547847e9615f",
+            "sort_order": 4
+          },
+          {
+            "id": "001a8b7616536926374deb8e",
+            "post_id": "37ce34eaba5caabee499209c",
+            "tag_id": "46ba98dca2069f4d72a1ab5f",
+            "sort_order": 5
+          },
+          {
+            "id": "9c38d1a3f91552f752d78613",
+            "post_id": "37ce34eaba5caabee499209c",
+            "tag_id": "2cf0f40b3fcf0b272e88cde0",
+            "sort_order": 6
+          },
+          {
+            "id": "1be35cdd70dab118b1c82a8f",
+            "post_id": "b5f7af36aaade2e3c2f76724",
+            "tag_id": "25a2c4f9a4198d895365c2f8",
+            "sort_order": 0
+          },
+          {
+            "id": "c2480e45feccb488e99a748d",
+            "post_id": "b5f7af36aaade2e3c2f76724",
+            "tag_id": "8644cadb53f46a2da01afdea",
+            "sort_order": 1
+          },
+          {
+            "id": "614c7adabdef393e79b05221",
+            "post_id": "b5f7af36aaade2e3c2f76724",
+            "tag_id": "3a1ddbd6291ee444f5a43be8",
+            "sort_order": 2
+          },
+          {
+            "id": "bd27121cf473907e47638039",
+            "post_id": "b5f7af36aaade2e3c2f76724",
+            "tag_id": "a767c08fb471fa683c368aff",
+            "sort_order": 3
+          },
+          {
+            "id": "082b7b7dbabd76f835a24d7a",
+            "post_id": "b5f7af36aaade2e3c2f76724",
+            "tag_id": "27b571bbfcae358286796b56",
+            "sort_order": 4
+          },
+          {
+            "id": "dae26bf35b92dbf3da936fbe",
+            "post_id": "b5f7af36aaade2e3c2f76724",
+            "tag_id": "9eb495a20b50bd628646a835",
+            "sort_order": 5
+          },
+          {
+            "id": "e4dec3b2d2f1e7e799d7c530",
+            "post_id": "b5f7af36aaade2e3c2f76724",
+            "tag_id": "2cf0f40b3fcf0b272e88cde0",
+            "sort_order": 6
+          },
+          {
+            "id": "682456d837d24f0a72bbb2b9",
+            "post_id": "2a6431d948ec9391ee438ffc",
+            "tag_id": "25a2c4f9a4198d895365c2f8",
+            "sort_order": 0
+          },
+          {
+            "id": "d521b0b91f81e9ff9b8d4f1d",
+            "post_id": "2a6431d948ec9391ee438ffc",
+            "tag_id": "7ae63ef3138b3979cc9e790e",
+            "sort_order": 1
+          },
+          {
+            "id": "fe631d24b2f464db4414b6df",
+            "post_id": "2a6431d948ec9391ee438ffc",
+            "tag_id": "dfbca66ad30bb81b63528ee2",
+            "sort_order": 2
+          },
+          {
+            "id": "40d7d66b374c25b7a19575cf",
+            "post_id": "2a6431d948ec9391ee438ffc",
+            "tag_id": "fa172c7e82bd8028f335eb7a",
+            "sort_order": 3
+          },
+          {
+            "id": "e77893d2130f836324133168",
+            "post_id": "2a6431d948ec9391ee438ffc",
+            "tag_id": "c4c422b9eee519475c444b56",
+            "sort_order": 4
+          },
+          {
+            "id": "afa1c6c964a052c9086dd2f7",
+            "post_id": "2a6431d948ec9391ee438ffc",
+            "tag_id": "aeab21dc18e29232a2db1837",
+            "sort_order": 5
+          },
+          {
+            "id": "b3bb0468db321d051861ba54",
+            "post_id": "2a6431d948ec9391ee438ffc",
+            "tag_id": "2cf0f40b3fcf0b272e88cde0",
+            "sort_order": 6
+          },
+          {
+            "id": "c577e92dae8bfad9631cadce",
+            "post_id": "a757d2e86d0e10990022d0c6",
+            "tag_id": "25a2c4f9a4198d895365c2f8",
+            "sort_order": 0
+          },
+          {
+            "id": "8cf2e276fa9d67b03c5dac3b",
+            "post_id": "a757d2e86d0e10990022d0c6",
+            "tag_id": "eef44c7bfcbc6ee07b6e275f",
+            "sort_order": 1
+          },
+          {
+            "id": "752f48275c6dbde594ccec65",
+            "post_id": "a757d2e86d0e10990022d0c6",
+            "tag_id": "ec0993f7ce9bc4b795a955f2",
+            "sort_order": 2
+          },
+          {
+            "id": "d341b7d9807c3f87f3020a3d",
+            "post_id": "a757d2e86d0e10990022d0c6",
+            "tag_id": "a767c08fb471fa683c368aff",
+            "sort_order": 3
+          },
+          {
+            "id": "06e99f5cac0a20e5c887a0b0",
+            "post_id": "a757d2e86d0e10990022d0c6",
+            "tag_id": "9c6ca8c7210ed269fa29163b",
+            "sort_order": 4
+          },
+          {
+            "id": "9075a99499c8b5c196f63355",
+            "post_id": "a757d2e86d0e10990022d0c6",
+            "tag_id": "baed30c23a8b025081912192",
+            "sort_order": 5
+          },
+          {
+            "id": "406d0fc0448e3063f4c55084",
+            "post_id": "a757d2e86d0e10990022d0c6",
+            "tag_id": "2cf0f40b3fcf0b272e88cde0",
+            "sort_order": 6
+          },
+          {
+            "id": "3def604c51a62875b153a7e9",
+            "post_id": "d234a674d9db45ad3f7d41e5",
+            "tag_id": "971a90fdbc5dba7f047b7f30",
+            "sort_order": 0
+          },
+          {
+            "id": "ee353f0c4a120489bb07df8a",
+            "post_id": "d234a674d9db45ad3f7d41e5",
+            "tag_id": "9d3986f29fb2b3ba633fcccf",
+            "sort_order": 1
+          },
+          {
+            "id": "b370d770edba4a40b4000f97",
+            "post_id": "d234a674d9db45ad3f7d41e5",
+            "tag_id": "46ba98dca2069f4d72a1ab5f",
+            "sort_order": 2
+          },
+          {
+            "id": "0464b52bc776db05b7f6ef3d",
+            "post_id": "d234a674d9db45ad3f7d41e5",
+            "tag_id": "baed30c23a8b025081912192",
+            "sort_order": 3
+          },
+          {
+            "id": "cf090b71a3c7dbc6ac0b1590",
+            "post_id": "d234a674d9db45ad3f7d41e5",
+            "tag_id": "2cf0f40b3fcf0b272e88cde0",
+            "sort_order": 4
+          },
+          {
+            "id": "a47451a87dda8f0c09559e74",
+            "post_id": "0804d7656b12652efde8deeb",
+            "tag_id": "8e399a9ee1509f4797f1626e",
+            "sort_order": 0
+          },
+          {
+            "id": "ef8122aea46a328e7ad746e1",
+            "post_id": "45414f602e9e4540140a1772",
+            "tag_id": "8e399a9ee1509f4797f1626e",
+            "sort_order": 0
+          },
+          {
+            "id": "fc5724080fbbaf5ee3e6b9b3",
+            "post_id": "df4d430b29db193357fed447",
+            "tag_id": "8e399a9ee1509f4797f1626e",
+            "sort_order": 0
+          },
+          {
+            "id": "f55df92913dc7451411c5a30",
+            "post_id": "11c3f3a471b030649760c7dc",
+            "tag_id": "8e399a9ee1509f4797f1626e",
+            "sort_order": 0
+          },
+          {
+            "id": "62e138f2674bfcab4c723803",
+            "post_id": "c59d40babf4d089db36568bb",
+            "tag_id": "40a45fce7c3e0f63ebf6f31d",
+            "sort_order": 0
+          },
+          {
+            "id": "9faf19f4d404d058e7c6ee68",
+            "post_id": "5b6ce91feef5e80cc32a7933",
+            "tag_id": "53567619089ec630c3692097",
+            "sort_order": 0
+          }
+        ]
+      }
+    }
+  ]
+}

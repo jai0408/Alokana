@@ -1,0 +1,16 @@
+{{!-- Expects a case post in context. Tag order convention: Case record, category, district, state. --}}
+<article class="case-card" data-status="{{> "status-key"}}">
+    <div class="case-card__meta">
+        <span>{{tags from="2" to="2" autolink="false"}}</span>
+    </div>
+    <h3 class="case-card__title"><a href="{{url}}">{{title}}</a></h3>
+    <p class="case-card__place">
+        {{tags from="3" to="4" separator=", " autolink="false"}}
+        {{#has tag="#undivided-ap"}}<span class="tag">Event in undivided AP</span>{{/has}}
+    </p>
+    <div class="case-card__foot">
+        {{> "status"}}
+        <span class="muted small">Updated {{date updated_at format="D MMM YYYY"}}</span>
+    </div>
+    {{#has tag="#synthetic"}}<span class="case-card__syn">Synthetic sample</span>{{/has}}
+</article>

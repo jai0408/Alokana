@@ -1,0 +1,33 @@
+{{!< default}}
+{{#post}}
+<div class="wrap">
+    {{#match @page.show_title_and_feature_image}}
+    <header class="page-head">
+        {{#if primary_tag}}<p class="kicker">{{primary_tag.name}}</p>{{/if}}
+        <h1>{{title}}</h1>
+        {{#if custom_excerpt}}<p class="lede">{{custom_excerpt}}</p>{{/if}}
+    </header>
+    {{/match}}
+</div>
+{{/post}}
+<div class="wrap split">
+    <div>
+        <h2>Places</h2>
+        <p class="muted">Districts and states that appear in at least one published record. Events before 2 June 2014 are recorded as undivided Andhra Pradesh.</p>
+    </div>
+    <div>
+        {{!-- Every public tag except the record types and the eight categories is a place. --}}
+        {{#get "tags" filter="visibility:public+slug:-[case,investigation,land-ownership,builder-misconduct,planning-approval,official-corruption,suspicious-property-money,government-allotment,buyer-harm,institutional-failure,news,trust,archive,secure-intake]" include="count.posts" order="name asc" limit="100"}}
+        {{#if tags}}
+        <ul class="geo-list">
+            {{#foreach tags}}{{#match count.posts ">" 0}}<li><a href="{{url}}">{{name}}</a><span class="muted small">{{plural count.posts empty="" singular="% record" plural="% records"}}</span></li>{{/match}}{{/foreach}}
+        </ul>
+        {{else}}
+        <div class="empty"><p>No places have been tagged yet.</p></div>
+        {{/if}}
+        {{/get}}
+    </div>
+</div>
+<div class="wrap section">
+    {{#post}}<div class="page-body page-wide">{{content}}</div>{{/post}}
+</div>
