@@ -5,7 +5,7 @@
   --card: #fbfaf6;
   --ink: #1d1b17;
   --ink-2: #4a463e;
-  --ink-3: #77715f;
+  --ink-3: #5f5a4b;
   --rule: #d8d1c0;
   --rule-strong: #b9b09b;
   --accent: #1f4e5f;
@@ -13,7 +13,7 @@
   --accent-soft: #dfe8e8;
   --mark: #f1e2a8;
 
-  --st-early: #6b6658;
+  --st-early: #5c5749;
   --st-early-bg: #e7e3d8;
   --st-proceeding: #8a5a12;
   --st-proceeding-bg: #f3e6cc;
@@ -37,7 +37,7 @@
     --card: #1f1e18;
     --ink: #ece7da;
     --ink-2: #c3bdad;
-    --ink-3: #8f8875;
+    --ink-3: #aaa390;
     --rule: #34322a;
     --rule-strong: #4b4839;
     --accent: #8cc2cf;
@@ -58,7 +58,7 @@
   }
 }
 :root[data-theme="dark"] {
-  --paper: #15140f; --paper-2: #1d1c16; --card: #1f1e18; --ink: #ece7da; --ink-2: #c3bdad; --ink-3: #8f8875;
+  --paper: #15140f; --paper-2: #1d1c16; --card: #1f1e18; --ink: #ece7da; --ink-2: #c3bdad; --ink-3: #aaa390;
   --rule: #34322a; --rule-strong: #4b4839; --accent: #8cc2cf; --accent-ink: #11140f; --accent-soft: #1d2d31;
   --mark: #4a4120; --st-early: #bdb7a6; --st-early-bg: #2b2a23; --st-proceeding: #e4b866; --st-proceeding-bg: #352b18;
   --st-finding: #8cc2cf; --st-finding-bg: #1b2d32; --st-final: #9ccf9f; --st-final-bg: #1d2e1f;
@@ -201,14 +201,14 @@ table.data th { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0
 @media (min-width: 1040px) { .case-grid--3 { grid-template-columns: repeat(3, 1fr); } }
 .case-card { position: relative; background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius); padding: 20px; display: flex; flex-direction: column; gap: 10px; transition: border-color 0.15s; }
 .case-card:hover { border-color: var(--rule-strong); }
-.case-card__meta { font-size: 0.78rem; color: var(--ink-3); display: flex; gap: 8px; flex-wrap: wrap; padding-right: 110px; }
+.case-card__meta { font-size: 0.78rem; color: var(--ink-3); display: flex; gap: 6px 8px; flex-wrap: wrap; align-items: center; justify-content: space-between; }
 .case-card__title { font-size: 1.12rem; margin: 0; }
 .case-card__title a { color: var(--ink); text-decoration: none; }
 .case-card__title a::after { content: ""; position: absolute; inset: 0; }
 .case-card__title a:hover { text-decoration: underline; }
 .case-card__place { margin: 0; font-size: 0.9rem; color: var(--ink-2); }
 .case-card__foot { margin-top: auto; padding-top: 8px; display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; justify-content: space-between; }
-.case-card__syn { position: absolute; top: 18px; right: 18px; font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--syn); background: var(--syn-bg); padding: 2px 8px; border-radius: 999px; }
+.case-card__syn { flex: none; font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--syn); background: var(--syn-bg); padding: 2px 8px; border-radius: 999px; }
 
 .db { display: grid; gap: 32px; }
 @media (min-width: 960px) { .db { grid-template-columns: 280px 1fr; align-items: start; } }
@@ -224,7 +224,7 @@ table.data th { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0
 .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .filters__actions { display: flex; gap: 8px; flex-wrap: wrap; }
 .results-head { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
-.empty { border: 1px dashed var(--rule-strong); border-radius: var(--radius); padding: 40px 20px; text-align: center; color: var(--ink-3); }
+.empty { border: 1px dashed var(--rule-strong); border-radius: var(--radius); padding: 40px 20px; text-align: center; color: var(--ink-3); margin-bottom: 32px; }
 
 /* ---------- Case page ---------- */
 .case-head { padding: 40px 0 28px; border-bottom: 1px solid var(--rule); }
@@ -378,3 +378,9 @@ legend { padding: 0 6px; font-weight: 500; }
 .geo-list li { padding: 6px 0; border-bottom: 1px solid var(--rule); break-inside: avoid; display: flex; justify-content: space-between; gap: 12px; }
 /* Linked-record blocks render only when the post links something. */
 .inv-cases:not(:has(.case-card)), .covered:not(:has(li)) { display: none; }
+
+/* Screen-reader-only text */
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+/* Linked-record boxes are filled by {{#get}}; hide them when nothing links. */
+.covered:not(:has(li)), .inv-cases:not(:has(.case-card)) { display: none; }

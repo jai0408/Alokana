@@ -11,9 +11,10 @@
 <div class="wrap">
     {{> "category-chips"}}
     {{#if posts}}
+    <h2 class="sr-only">Records</h2>
     <div class="case-grid">
         {{#foreach posts}}
-            {{#has tag="case"}}{{> "case-card"}}{{/has}}
+            {{#match primary_tag.slug "case"}}{{> "case-card"}}{{/match}}
         {{/foreach}}
     </div>
     {{#get "posts" filter="tag:{{tag.slug}}+tag:investigation" limit="10" include="tags"}}

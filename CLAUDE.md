@@ -27,8 +27,9 @@
 
 # Repository map
 - `theme/` — custom Ghost 6 theme for the public site. Validate with `npx gscan theme/` before any change ships.
-- `content/` — `build-import.mjs` generates `alokana-sample-content.json` (SYNTHETIC import) from the archived
-  fixtures; `routes.yaml` defines the `/cases/` and `/investigations/` collections.
+- `content/` — `build-import.mjs` generates `alokana-trust-pages.json` (trust pages, no sample data, imports published)
+  and `alokana-sample-content.json` (SYNTHETIC records, imports as drafts, staging only); `routes.yaml` defines `/`
+  and the `/cases/` and `/investigations/` collections. Keep sample data out of the trust-pages file.
 - `archive/next-site/` — earlier Next.js front end, reference only. `packages/domain/src/fixtures.ts` there is the
   source of the synthetic records. Public types must never gain fields for source identity, storage keys or
   unpublished claims.
