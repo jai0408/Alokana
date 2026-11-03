@@ -1,5 +1,6 @@
 {{!< default}}
 {{#post}}
+{{!-- No bylines anywhere: the archive publishes as an institution, never as a person. --}}
 {{!-- Match on slug: {{#has tag}} compares tag names, and this tag is named "Case record". --}}
 {{#match primary_tag.slug "case"}}
 <article class="case-record">
@@ -47,7 +48,7 @@
             <h1 style="max-width:24ch">{{title}}</h1>
             {{#if custom_excerpt}}<p class="lede">{{custom_excerpt}}</p>{{/if}}
             <p class="small muted" style="margin:0">
-                {{#if authors}}By {{authors autolink="false"}} · {{/if}}Published {{date published_at format="D MMM YYYY"}}{{#match (date updated_at format="YYYY-MM-DD") "!=" (date published_at format="YYYY-MM-DD")}} · Updated {{date updated_at format="D MMM YYYY"}}{{/match}} · {{reading_time}}
+                Published {{date published_at format="D MMM YYYY"}}{{#match (date updated_at format="YYYY-MM-DD") "!=" (date published_at format="YYYY-MM-DD")}} · Updated {{date updated_at format="D MMM YYYY"}}{{/match}} · {{reading_time}}
             </p>
         </div>
     </header>

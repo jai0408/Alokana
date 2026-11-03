@@ -40,3 +40,6 @@
   `#case-<ID>` link them.
 - Nothing in this repo may push content or themes to Ghost automatically; uploads are done by a human editor.
 - Report-a-concern is a disabled preview until roadmap phase 4 sign-off.
+- Anonymity: never output an author name, byline, author page, author link or staff profile anywhere public.
+  Keep `exclude="social_data,schema,search,portal"` on `ghost_head`, no author taxonomy and `rss: false` in
+  `routes.yaml`. Never put the owner's or any staff member's real name in theme, content or docs.

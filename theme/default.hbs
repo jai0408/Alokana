@@ -8,7 +8,17 @@
     <link rel="stylesheet" href="{{asset "css/screen.css"}}">
     {{!-- Beta: keep the archive out of search engines until editorial and legal review is in place. --}}
     <meta name="robots" content="noindex, nofollow">
-    {{ghost_head}}
+    {{!-- Anonymity: no author name, profile or social handle may reach the page.
+         social_data and schema carry the author's name; search and portal embed the Content API key,
+         which would let anyone list staff via /ghost/api/content/authors/. Basic link-preview tags are
+         written below without any author field. --}}
+    {{ghost_head exclude="social_data,schema,search,portal"}}
+    <meta property="og:site_name" content="{{@site.title}}">
+    <meta property="og:type" content="{{#is "post,page"}}article{{else}}website{{/is}}">
+    <meta property="og:title" content="{{meta_title}}">
+    <meta property="og:description" content="{{meta_description}}">
+    <meta property="og:url" content="{{url absolute="true"}}">
+    <meta name="twitter:card" content="summary">
 </head>
 <body class="{{body_class}}">
     <a class="skip" href="#main">Skip to content</a>
