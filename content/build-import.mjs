@@ -1,7 +1,9 @@
 // Builds a Ghost content import (Settings → Advanced → Import/Export → Import) from the
 // SYNTHETIC fixtures in the archived domain package, plus the trust pages.
 //
-//   node content/build-import.mjs   →   content/alokana-sample-content.json
+//   node --experimental-strip-types content/build-import.mjs
+//     → content/alokana-trust-pages.json   (trust pages, published; safe for production)
+//     → content/alokana-sample-content.json (synthetic cases + investigation, drafts; staging only)
 //
 // Every record produced here is synthetic and tagged #synthetic. Real cases enter Ghost
 // only through the reviewed publication workflow, never through this script.
@@ -17,7 +19,6 @@ import {
   VERIFICATION,
 } from "../archive/next-site/packages/domain/src/vocabulary.ts";
 
-const OUT = new URL("./alokana-sample-content.json", import.meta.url);
 
 // ---------- helpers ----------
 const esc = (s) =>
@@ -191,21 +192,22 @@ ${c.corrections.map((k) => `<li><strong>v${k.version} · ${fmtDate(k.date)}</str
 
 const posts = [];
 const postsTags = [];
-function addPost({ key, type = "post", title, slug, excerptText, body, tagList, publishedAt, updatedAt }) {
+function addPost({ key, type = "post", title, slug, excerptText, body, tagList, publishedAt, updatedAt, publish = false }) {
+  if (!body.length) throw new Error(`${slug}: empty body — Ghost would reject the whole import file`);
   const pid = id(`post:${key}`);
   posts.push({
     id: pid,
     title,
     slug,
     type,
-    // Everything imports as a draft: nothing becomes public until an editor reviews and publishes it in Ghost.
-    status: "draft",
+    // Sample content imports as drafts. Only trust pages, approved for publication, import as published.
+    status: publish ? "published" : "draft",
     visibility: "public",
     featured: 0,
     lexical: lexical(body),
     mobiledoc: null,
     custom_excerpt: excerptText ?? null,
-    published_at: null,
+    published_at: publish ? publishedAt : null,
     created_at: publishedAt,
     updated_at: updatedAt ?? publishedAt,
   });
@@ -338,20 +340,14 @@ const pages = [
     lede: "Every material change to a published record creates a new public version with a dated note. We do not silently delete records.",
     tag: T_TRUST,
     body: [
-      html(`<div class="synthetic synthetic--compact" role="note"><strong>Synthetic sample records.</strong> Invented to demonstrate the format. Not real cases.</div>
-<div class="table-scroll"><table class="data">
-<thead><tr><th scope="col">Date</th><th scope="col">Record</th><th scope="col">Version</th><th scope="col">What changed</th></tr></thead>
-<tbody>${SYNTHETIC_CASES.flatMap((c) => c.corrections.map((k) => ({ c, k })))
-        .sort((a, b) => b.k.date.localeCompare(a.k.date))
-        .map(({ c, k }) => `<tr><td style="white-space:nowrap">${fmtDate(k.date)}</td><td><a href="/cases/${c.slug}/#correction-history">${esc(c.title)}</a><br><span class="mono muted">${c.id}</span></td><td>v${k.version}</td><td>${esc(k.note)} <span class="muted small">(${esc(k.changedFields.join(", "))})</span></td></tr>`)
-        .join("")}</tbody>
-</table></div>`),
+      // Real corrections are added here by an editor as records are published. No sample rows: this page is public.
+      html(`<div class="empty"><p>No corrections yet. The archive has not published any records.</p></div>`),
       heading("Our corrections policy"),
       html(`<ul>
 <li>Substantiated factual errors are corrected promptly and visibly on the record itself.</li>
 <li>Status updates (new orders, appeals, stays) are recorded with the date and source.</li>
 <li>A record is withdrawn only with a public withdrawal notice and an editor’s recorded rationale.</li>
-<li>Previous versions are retained in our internal audit log.</li>
+<li>Previous versions are kept in the editorial revision history.</li>
 </ul>
 <p>To report an error, see <a href="/right-of-reply/">right of reply and corrections requests</a>.</p>`),
     ],
@@ -377,7 +373,7 @@ const pages = [
       html(
         split(
           `<h2>After publication</h2>`,
-          `<div class="prose"><p>If you are named in a record, or you believe something is wrong, write to the editor with the record ID (for example <span class="mono">SYN-0002</span>), the specific statement and any document that shows it is inaccurate or out of date.</p>
+          `<div class="prose"><p>If you are named in a record, or you believe something is wrong, write to the editor with the record ID shown at the top of the record, the specific statement and any document that shows it is inaccurate or out of date.</p>
 <div class="callout"><p class="callout__label">Contact channel — being set up</p><p style="margin:0">A dedicated corrections address will be published here before the first real record goes live. Every request is logged and answered, and any resulting change appears on the <a href="/corrections/">corrections page</a>.</p></div></div>`,
         ),
       ),
@@ -438,7 +434,8 @@ const pages = [
     title: "Explore by geography",
     lede: "Records by district and state, with jurisdiction recorded as it was at the time of each event.",
     tag: T_ARCHIVE,
-    body: [],
+    // Ghost rejects an empty Lexical document, and one invalid item fails the whole import silently.
+    body: [para("Each record is tagged with its district and its state, so it appears under both. A place appears here once at least one published record is tagged with it.")],
   },
 ];
 
@@ -452,17 +449,25 @@ for (const p of pages) {
     body: p.body,
     tagList: [p.tag],
     publishedAt: iso("2026-10-30"),
+    publish: true,
   });
 }
 
 // ---------- write ----------
-const data = {
-  db: [
-    {
-      meta: { exported_on: Date.now(), version: "6.0.0" },
-      data: { posts, tags: [...tags.values()], posts_tags: postsTags },
-    },
-  ],
-};
-writeFileSync(OUT, `${JSON.stringify(data, null, 2)}\n`);
-console.log(`Wrote ${posts.filter((p) => p.type === "post").length} posts, ${pages.length} pages, ${tags.size} tags → ${OUT.pathname}`);
+// Two files, so production never receives sample records:
+//   alokana-trust-pages.json   — trust pages (published) + record-type and category tags. Safe for production.
+//   alokana-sample-content.json — synthetic cases and investigation (drafts). Staging only.
+const PAGE_TAG_SLUGS = new Set(["case", "investigation", "trust", "archive", "secure-intake", ...Object.keys(CATEGORIES)]);
+function write(file, items, tagFilter) {
+  const ids = new Set(items.map((p) => p.id));
+  const links = postsTags.filter((r) => ids.has(r.post_id));
+  const used = new Set(links.map((r) => r.tag_id));
+  const tagList = [...tags.values()].filter((t) => used.has(t.id) || tagFilter(t));
+  const data = { db: [{ meta: { exported_on: Date.now(), version: "6.0.0" }, data: { posts: items, tags: tagList, posts_tags: links } }] };
+  const out = new URL(file, import.meta.url);
+  writeFileSync(out, `${JSON.stringify(data, null, 2)}\n`);
+  const n = (t) => items.filter((p) => p.type === t).length;
+  console.log(`Wrote ${n("post")} posts, ${n("page")} pages, ${tagList.length} tags → ${out.pathname}`);
+}
+write("./alokana-trust-pages.json", posts.filter((p) => p.type === "page"), (t) => PAGE_TAG_SLUGS.has(t.slug));
+write("./alokana-sample-content.json", posts.filter((p) => p.type === "post"), () => false);

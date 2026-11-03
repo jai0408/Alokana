@@ -2,7 +2,7 @@
   "db": [
     {
       "meta": {
-        "exported_on": 1793706921130,
+        "exported_on": 1793709173691,
         "version": "6.0.0"
       },
       "data": {
@@ -96,96 +96,6 @@
             "published_at": null,
             "created_at": "2026-10-30T09:00:00.000Z",
             "updated_at": "2026-10-30T09:00:00.000Z"
-          },
-          {
-            "id": "0804d7656b12652efde8deeb",
-            "title": "Methodology",
-            "slug": "methodology",
-            "type": "page",
-            "status": "draft",
-            "visibility": "public",
-            "featured": 0,
-            "lexical": "{\"root\":{\"children\":[{\"type\":\"html\",\"version\":1,\"html\":\"<section class=\\\"section\\\"><div class=\\\"split\\\"><div><h2>Evidence hierarchy</h2><p class=\\\"muted\\\">Every source is classed A–F. The class decides how we may describe what it shows. An FIR proves a case was registered — not that the accused committed the offence.</p></div><div class=\\\"ev-grid\\\"><div class=\\\"ev\\\"><span class=\\\"ev__class\\\">A</span><h3>Final judicial finding</h3><p>Final judgment, conviction or acquittal, final appellate outcome.</p><p><strong>How we describe it:</strong> State the precise finding, date, issues decided and appeal status.</p></div><div class=\\\"ev\\\"><span class=\\\"ev__class\\\">B</span><h3>Official adjudicatory or audit finding</h3><p>RERA order, tribunal order, audit observation, departmental finding.</p><p><strong>How we describe it:</strong> Attribute to the authority and quote within its scope. An audit observation is not a conviction.</p></div><div class=\\\"ev\\\"><span class=\\\"ev__class\\\">C</span><h3>Formal investigative record</h3><p>FIR, trap case, chargesheet, prosecution complaint, attachment order.</p><p><strong>How we describe it:</strong> Say “registered”, “filed”, “alleged” or “attached”. State whether investigation or trial is pending.</p></div><div class=\\\"ev\\\"><span class=\\\"ev__class\\\">D</span><h3>Primary private record</h3><p>Agreement, receipt, correspondence, bank statement, survey material.</p><p><strong>How we describe it:</strong> Authenticate origin, context and completeness. Redact third-party personal data.</p></div><div class=\\\"ev\\\"><span class=\\\"ev__class\\\">E</span><h3>First-hand testimony</h3><p>Buyer, witness, former employee or resident interview.</p><p><strong>How we describe it:</strong> Attribute carefully, assess basis of knowledge, corroborate independently.</p></div><div class=\\\"ev\\\"><span class=\\\"ev__class\\\">F</span><h3>Secondary reporting</h3><p>News stories, social posts, public videos.</p><p><strong>How we describe it:</strong> A lead or attributed account only — never the sole basis for a serious allegation.</p></div></div></div></section>\"},{\"type\":\"html\",\"version\":1,\"html\":\"<section class=\\\"section\\\"><div class=\\\"split\\\"><div><h2>Status labels</h2><p class=\\\"muted\\\">The status on a record describes the procedural stage reached — nothing more.</p></div><ol class=\\\"ladder\\\"><li><span><span class=\\\"status status--early\\\"><span class=\\\"status__dot\\\" aria-hidden=\\\"true\\\"></span>Complaint received</span></span><p>A complaint was filed with an identifiable body. A complaint does not establish the claim.</p></li><li><span><span class=\\\"status status--early\\\"><span class=\\\"status__dot\\\" aria-hidden=\\\"true\\\"></span>FIR / investigation</span></span><p>Police or an agency registered or is investigating the allegation. No finding has been made.</p></li><li><span><span class=\\\"status status--proceeding\\\"><span class=\\\"status__dot\\\" aria-hidden=\\\"true\\\"></span>Charges filed</span></span><p>The agency has filed a chargesheet or prosecution complaint. The trial outcome is pending.</p></li><li><span><span class=\\\"status status--finding\\\"><span class=\\\"status__dot\\\" aria-hidden=\\\"true\\\"></span>Regulatory / audit finding</span></span><p>A regulator, tribunal, auditor or department made a specific finding, attributed here within its scope.</p></li><li><span><span class=\\\"status status--proceeding\\\"><span class=\\\"status__dot\\\" aria-hidden=\\\"true\\\"></span>Trial / proceeding pending</span></span><p>A court or tribunal proceeding is still active. See the last-checked date.</p></li><li><span><span class=\\\"status status--finding\\\"><span class=\\\"status__dot\\\" aria-hidden=\\\"true\\\"></span>Judgment / order issued</span></span><p>A court or tribunal decided specific issues. The operative finding is summarised, not one side&#39;s argument.</p></li><li><span><span class=\\\"status status--proceeding\\\"><span class=\\\"status__dot\\\" aria-hidden=\\\"true\\\"></span>Appeal / review pending</span></span><p>An appeal, review or stay is pending. The earlier outcome is not final.</p></li><li><span><span class=\\\"status status--final\\\"><span class=\\\"status__dot\\\" aria-hidden=\\\"true\\\"></span>Closed / final outcome</span></span><p>The proceeding is closed. The exact outcome and any remaining appeal route are stated.</p></li></ol></div></section>\"},{\"type\":\"html\",\"version\":1,\"html\":\"<section class=\\\"section\\\"><div class=\\\"split\\\"><div><h2>Ten-step research workflow</h2><p class=\\\"muted\\\">AI tools may assist with extraction and drafting under human review. They never decide guilt, status or publication.</p></div><ol class=\\\"steps\\\"><li><strong>Lead discovery</strong><p>Candidate leads come from official portals, court records, audit reports, news archives and citizen tips. A lead gets an internal ID and is never published at this stage.</p></li><li><strong>Lead triage</strong><p>We assess public-interest value, relevance to the states and period, potential harm, source reliability, duplication and legal risk.</p></li><li><strong>Record acquisition</strong><p>Official downloads, certified copies, RTI responses, filings, agreements and interviews — with acquisition date and method logged.</p></li><li><strong>Preservation</strong><p>The original is stored read-only with a SHA-256 hash and source reference. Work happens on a copy.</p></li><li><strong>Claim decomposition</strong><p>The story is split into atomic claims: what is asserted, about whom, over what dates, supported by what.</p></li><li><strong>Corroboration</strong><p>Material disputed claims need at least two independent sources where feasible. An original official record is strong evidence of what that record itself states.</p></li><li><strong>Contradiction search</strong><p>We actively look for later orders, stays, reversals, acquittals, corrective action and alternative explanations.</p></li><li><strong>Right of reply</strong><p>Every material subject receives specific, fair questions. We record how and when notice was served and whether a response came.</p></li><li><strong>Pre-publication review</strong><p>An editor checks sourcing and wording; counsel reviews high-risk allegations; a fact-checker verifies amounts and dates; personal data is redacted.</p></li><li><strong>Publication and monitoring</strong><p>A named editor publishes the approved version. We monitor new orders and replies and update status with a visible change history.</p></li></ol></div></section>\"},{\"type\":\"html\",\"version\":1,\"html\":\"<section class=\\\"section\\\"><div class=\\\"split\\\"><div><h2>Labelled money</h2><p class=\\\"muted\\\">Amounts are never blurred together.</p></div><div class=\\\"table-scroll\\\"><table class=\\\"data\\\"><tbody><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;color:var(--ink);width:30%\\\">Alleged</th><td class=\\\"muted\\\">Amount stated in a complaint or allegation; not established.</td></tr><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;color:var(--ink);width:30%\\\">Documented</th><td class=\\\"muted\\\">Amount shown in a primary record we hold.</td></tr><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;color:var(--ink);width:30%\\\">Ordered</th><td class=\\\"muted\\\">Amount directed by a court, regulator or authority.</td></tr><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;color:var(--ink);width:30%\\\">Recovered</th><td class=\\\"muted\\\">Amount confirmed as actually paid or recovered.</td></tr><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;color:var(--ink);width:30%\\\">Estimate</th><td class=\\\"muted\\\">Our calculation; method stated alongside.</td></tr></tbody></table></div></div></section>\"},{\"type\":\"html\",\"version\":1,\"html\":\"<section class=\\\"section\\\"><div class=\\\"split\\\"><div><h2>Scope</h2><p class=\\\"muted\\\">1 January 2011 to 2 November 2026, Telangana and Andhra Pradesh. Some records link to earlier origins or later outcomes.</p></div><div class=\\\"prose\\\"><p><strong>Jurisdiction is recorded as at the event date.</strong> Telangana became a separate state on 2 June 2014. Events before that date are recorded as undivided Andhra Pradesh, with the district and authority as they were at the time. We do not retroactively assign a pre-2014 event to a present-day state without checking.</p>\\n<h3 style=\\\"margin-top:28px\\\">Categories</h3>\\n<div class=\\\"table-scroll\\\"><table class=\\\"data\\\"><tbody><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;width:40%\\\"><a href=\\\"/tag/land-ownership/\\\">Land ownership and land grabbing</a></th><td class=\\\"muted\\\">Competing title claims, forged deeds, assigned-land transfer, government land occupation.</td></tr><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;width:40%\\\"><a href=\\\"/tag/builder-misconduct/\\\">Builder and promoter misconduct</a></th><td class=\\\"muted\\\">Collection before a compliant sale agreement, misrepresentation, duplicate sales, non-delivery.</td></tr><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;width:40%\\\"><a href=\\\"/tag/planning-approval/\\\">Planning and approval irregularities</a></th><td class=\\\"muted\\\">Unauthorised layouts, construction deviations, missing permissions, encroachment.</td></tr><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;width:40%\\\"><a href=\\\"/tag/official-corruption/\\\">Bribery and official corruption</a></th><td class=\\\"muted\\\">Alleged payment demands, trap cases, approvals allegedly influenced by undue advantage.</td></tr><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;width:40%\\\"><a href=\\\"/tag/suspicious-property-money/\\\">Undisclosed or suspicious property money</a></th><td class=\\\"muted\\\">Undervaluation, benami allegations, laundering links, shell-company ownership.</td></tr><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;width:40%\\\"><a href=\\\"/tag/government-allotment/\\\">Government land allotment and public assets</a></th><td class=\\\"muted\\\">Concessional allotment, non-use, change of purpose, unmet conditions.</td></tr><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;width:40%\\\"><a href=\\\"/tag/buyer-harm/\\\">Buyer harm and project failure</a></th><td class=\\\"muted\\\">Delayed possession, refund disputes, hidden charges, missing amenities.</td></tr><tr><th scope=\\\"row\\\" style=\\\"text-transform:none;letter-spacing:0;font-size:0.93rem;width:40%\\\"><a href=\\\"/tag/institutional-failure/\\\">Institutional failure</a></th><td class=\\\"muted\\\">Complaints not acted upon, repeated permissions despite known violations.</td></tr></tbody></table></div>\\n<h3 style=\\\"margin-top:28px\\\">Language we avoid</h3>\\n<p>We do not label a transaction “black money”, a person “corrupt” or a company a “scam” unless the evidence and legal status justify exactly that wording. We publish no rankings or scores of people.</p></div></div></section>\"}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}",
-            "mobiledoc": null,
-            "custom_excerpt": "How a lead becomes a published record — and why most leads never do.",
-            "published_at": null,
-            "created_at": "2026-10-30T09:00:00.000Z",
-            "updated_at": "2026-10-30T09:00:00.000Z"
-          },
-          {
-            "id": "45414f602e9e4540140a1772",
-            "title": "Corrections",
-            "slug": "corrections",
-            "type": "page",
-            "status": "draft",
-            "visibility": "public",
-            "featured": 0,
-            "lexical": "{\"root\":{\"children\":[{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"synthetic synthetic--compact\\\" role=\\\"note\\\"><strong>Synthetic sample records.</strong> Invented to demonstrate the format. Not real cases.</div>\\n<div class=\\\"table-scroll\\\"><table class=\\\"data\\\">\\n<thead><tr><th scope=\\\"col\\\">Date</th><th scope=\\\"col\\\">Record</th><th scope=\\\"col\\\">Version</th><th scope=\\\"col\\\">What changed</th></tr></thead>\\n<tbody><tr><td style=\\\"white-space:nowrap\\\">15 Sept 2026</td><td><a href=\\\"/cases/sample-rera-refund-order-tower-project/#correction-history\\\">RERA refund order for delayed tower project; promoter&#39;s appeal pending</a><br><span class=\\\"mono muted\\\">SYN-0002</span></td><td>v2</td><td>Updated to reflect the conditional stay and next hearing date. <span class=\\\"muted small\\\">(legalStatus)</span></td></tr><tr><td style=\\\"white-space:nowrap\\\">2 Apr 2026</td><td><a href=\\\"/cases/sample-allotment-institutional-land-2008/#correction-history\\\">Institutional land allotment: utilisation conditions not met, resumption ordered</a><br><span class=\\\"mono muted\\\">SYN-0001</span></td><td>v3</td><td>Estimate basis clarified; the figure did not change. <span class=\\\"muted small\\\">(financialItems)</span></td></tr><tr><td style=\\\"white-space:nowrap\\\">1 Mar 2026</td><td><a href=\\\"/cases/sample-allotment-institutional-land-2008/#correction-history\\\">Institutional land allotment: utilisation conditions not met, resumption ordered</a><br><span class=\\\"mono muted\\\">SYN-0001</span></td><td>v2</td><td>Added the 2014 jurisdiction change to the timeline for clarity. <span class=\\\"muted small\\\">(timeline)</span></td></tr></tbody>\\n</table></div>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Our corrections policy\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<ul>\\n<li>Substantiated factual errors are corrected promptly and visibly on the record itself.</li>\\n<li>Status updates (new orders, appeals, stays) are recorded with the date and source.</li>\\n<li>A record is withdrawn only with a public withdrawal notice and an editor’s recorded rationale.</li>\\n<li>Previous versions are retained in our internal audit log.</li>\\n</ul>\\n<p>To report an error, see <a href=\\\"/right-of-reply/\\\">right of reply and corrections requests</a>.</p>\"}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}",
-            "mobiledoc": null,
-            "custom_excerpt": "Every material change to a published record creates a new public version with a dated note. We do not silently delete records.",
-            "published_at": null,
-            "created_at": "2026-10-30T09:00:00.000Z",
-            "updated_at": "2026-10-30T09:00:00.000Z"
-          },
-          {
-            "id": "df4d430b29db193357fed447",
-            "title": "Right of reply",
-            "slug": "right-of-reply",
-            "type": "page",
-            "status": "draft",
-            "visibility": "public",
-            "featured": 0,
-            "lexical": "{\"root\":{\"children\":[{\"type\":\"html\",\"version\":1,\"html\":\"<section class=\\\"section\\\"><div class=\\\"split\\\"><div><h2>Before publication</h2></div><ol class=\\\"steps\\\"><li><strong>We identify every subject</strong><p>Company, promoter, official, department, contractor or other named party in a material claim.</p></li><li><strong>We send specific questions</strong><p>A neutral summary of each claim concerning you, with dates and enough detail for a meaningful answer.</p></li><li><strong>We give a reasonable deadline</strong><p>Proportionate to the story. We keep proof of delivery and follow-up attempts.</p></li><li><strong>We publish your response fairly</strong><p>Including denials, explanations and documents. We do not paraphrase a denial to weaken it.</p></li><li><strong>Silence is not an admission</strong><p>If there is no response, we say when and how we asked — and nothing more.</p></li></ol></div></section>\"},{\"type\":\"html\",\"version\":1,\"html\":\"<section class=\\\"section\\\"><div class=\\\"split\\\"><div><h2>After publication</h2></div><div class=\\\"prose\\\"><p>If you are named in a record, or you believe something is wrong, write to the editor with the record ID (for example <span class=\\\"mono\\\">SYN-0002</span>), the specific statement and any document that shows it is inaccurate or out of date.</p>\\n<div class=\\\"callout\\\"><p class=\\\"callout__label\\\">Contact channel — being set up</p><p style=\\\"margin:0\\\">A dedicated corrections address will be published here before the first real record goes live. Every request is logged and answered, and any resulting change appears on the <a href=\\\"/corrections/\\\">corrections page</a>.</p></div></div></div></section>\"}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}",
-            "mobiledoc": null,
-            "custom_excerpt": "Anyone named in a record is asked specific questions before publication, and can respond or request a correction afterwards.",
-            "published_at": null,
-            "created_at": "2026-10-30T09:00:00.000Z",
-            "updated_at": "2026-10-30T09:00:00.000Z"
-          },
-          {
-            "id": "11c3f3a471b030649760c7dc",
-            "title": "Funding & independence",
-            "slug": "independence",
-            "type": "page",
-            "status": "draft",
-            "visibility": "public",
-            "featured": 0,
-            "lexical": "{\"root\":{\"children\":[{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Editorial independence\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<ul>\\n<li>No developer, broker, political party, official or complainant can pay to add, suppress, remove or alter a case.</li>\\n<li>Sponsorship, advertising and donations are kept separate from case selection and editorial decisions.</li>\\n<li>Political and commercial affiliations play no part in which cases we investigate.</li>\\n<li>Serious allegations follow a two-person rule: one researcher builds the case; a second editor independently checks each material claim.</li>\\n<li>Corrections are public and versioned.</li>\\n</ul>\"},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Funding sources\",\"type\":\"extended-text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"extended-heading\",\"version\":1,\"tag\":\"h2\"},{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"callout\\\" style=\\\"max-width:46rem\\\"><p class=\\\"callout__label\\\">To be published before launch</p><p style=\\\"margin:0\\\">A full list of funders and our conflict-of-interest policy will appear here before the archive publishes its first real record.</p></div>\"}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}",
-            "mobiledoc": null,
-            "custom_excerpt": "No one can pay to add, suppress, remove or alter a record.",
-            "published_at": null,
-            "created_at": "2026-10-30T09:00:00.000Z",
-            "updated_at": "2026-10-30T09:00:00.000Z"
-          },
-          {
-            "id": "c59d40babf4d089db36568bb",
-            "title": "Report a concern",
-            "slug": "report",
-            "type": "page",
-            "status": "draft",
-            "visibility": "public",
-            "featured": 0,
-            "lexical": "{\"root\":{\"children\":[{\"type\":\"html\",\"version\":1,\"html\":\"<div class=\\\"intake-closed\\\" role=\\\"status\\\"><h2 style=\\\"font-size:1.25rem\\\">Intake is not open yet</h2><p style=\\\"margin:0\\\">We will accept reports only after an independent security review and legal sign-off on how submissions are stored, who can see them and how long they are kept. The form below shows what intake will ask for; it cannot be submitted.</p></div>\\n<div class=\\\"split\\\">\\n<div class=\\\"prose\\\">\\n<h2>Before you share anything</h2>\\n<p><strong>We cannot promise absolute anonymity.</strong> When intake opens, this page will explain exactly what the channel records (for example IP addresses or email headers), who on the team can see your identity, and when we might be legally compelled to share information.</p>\\n<p>Your identity will be stored separately from any case record. Case editors will not see it by default.</p>\\n<h3 style=\\\"margin-top:24px\\\">Never send us</h3>\\n<ul class=\\\"dont\\\"><li>Aadhaar or PAN numbers</li><li>Full bank account or card numbers</li><li>Passwords or login details</li><li>Unrelated family information</li><li>Material obtained by trespass, hacking or unlawful recording</li></ul>\\n</div>\\n<form aria-label=\\\"Report form preview (disabled)\\\" onsubmit=\\\"return false\\\">\\n<fieldset disabled><legend>What happened</legend>\\n<div class=\\\"field\\\"><label for=\\\"r-cat\\\">Type of concern</label><select id=\\\"r-cat\\\"><option>Land ownership and land grabbing</option><option>Builder and promoter misconduct</option><option>Planning and approval irregularities</option><option>Bribery and official corruption</option><option>Undisclosed or suspicious property money</option><option>Government land allotment and public assets</option><option>Buyer harm and project failure</option><option>Institutional failure</option></select></div>\\n<div class=\\\"field-row\\\"><div class=\\\"field\\\"><label for=\\\"r-state\\\">State</label><select id=\\\"r-state\\\"><option>Telangana</option><option>Andhra Pradesh</option></select></div><div class=\\\"field\\\"><label for=\\\"r-district\\\">District</label><input id=\\\"r-district\\\"></div></div>\\n<div class=\\\"field\\\"><label for=\\\"r-desc\\\">Describe what you know first-hand (English or Telugu)</label><textarea id=\\\"r-desc\\\"></textarea></div>\\n<div class=\\\"field\\\"><label for=\\\"r-refs\\\">Any official reference numbers (RERA, FIR, court case, survey number)</label><input id=\\\"r-refs\\\"></div>\\n</fieldset>\\n<fieldset disabled><legend>Contact (optional)</legend>\\n<div class=\\\"field\\\"><label for=\\\"r-contact\\\">A safe way to reach you</label><input id=\\\"r-contact\\\"></div>\\n<p class=\\\"small muted\\\" style=\\\"margin:0\\\">File upload will be added only after malware scanning, quarantine storage and encryption are in place.</p>\\n</fieldset>\\n<button type=\\\"button\\\" class=\\\"btn btn--primary\\\" disabled>Submission not yet available</button>\\n</form>\\n</div>\"}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}",
-            "mobiledoc": null,
-            "custom_excerpt": "Tips and documents help us find patterns. They are a starting point for research — never published as received.",
-            "published_at": null,
-            "created_at": "2026-10-30T09:00:00.000Z",
-            "updated_at": "2026-10-30T09:00:00.000Z"
-          },
-          {
-            "id": "5b6ce91feef5e80cc32a7933",
-            "title": "Explore by geography",
-            "slug": "explore",
-            "type": "page",
-            "status": "draft",
-            "visibility": "public",
-            "featured": 0,
-            "lexical": "{\"root\":{\"children\":[],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}",
-            "mobiledoc": null,
-            "custom_excerpt": "Records by district and state, with jurisdiction recorded as it was at the time of each event.",
-            "published_at": null,
-            "created_at": "2026-10-30T09:00:00.000Z",
-            "updated_at": "2026-10-30T09:00:00.000Z"
           }
         ],
         "tags": [
@@ -202,25 +112,6 @@
             "slug": "investigation",
             "visibility": "public",
             "description": "Long-form reported pieces."
-          },
-          {
-            "id": "8e399a9ee1509f4797f1626e",
-            "name": "Trust infrastructure",
-            "slug": "trust",
-            "visibility": "public"
-          },
-          {
-            "id": "53567619089ec630c3692097",
-            "name": "Archive",
-            "slug": "archive",
-            "visibility": "public"
-          },
-          {
-            "id": "4d852ba1a87d8317a1a65e35",
-            "name": "Land ownership and land grabbing",
-            "slug": "land-ownership",
-            "visibility": "public",
-            "description": "Competing title claims, forged deeds, assigned-land transfer, government land occupation."
           },
           {
             "id": "eef44c7bfcbc6ee07b6e275f",
@@ -244,13 +135,6 @@
             "description": "Alleged payment demands, trap cases, approvals allegedly influenced by undue advantage."
           },
           {
-            "id": "8ed5c67724bb90673ae95234",
-            "name": "Undisclosed or suspicious property money",
-            "slug": "suspicious-property-money",
-            "visibility": "public",
-            "description": "Undervaluation, benami allegations, laundering links, shell-company ownership."
-          },
-          {
             "id": "fa8a679a488d07f1892836c9",
             "name": "Government land allotment and public assets",
             "slug": "government-allotment",
@@ -263,13 +147,6 @@
             "slug": "buyer-harm",
             "visibility": "public",
             "description": "Delayed possession, refund disputes, hidden charges, missing amenities."
-          },
-          {
-            "id": "bef5f382e61e953e1de1c091",
-            "name": "Institutional failure",
-            "slug": "institutional-failure",
-            "visibility": "public",
-            "description": "Complaints not acted upon, repeated permissions despite known violations."
           },
           {
             "id": "d7b20b246a30f6ec82e3d54a",
@@ -384,12 +261,6 @@
             "name": "#case-SYN-0005",
             "slug": "hash-case-syn-0005",
             "visibility": "internal"
-          },
-          {
-            "id": "40a45fce7c3e0f63ebf6f31d",
-            "name": "Secure intake",
-            "slug": "secure-intake",
-            "visibility": "public"
           }
         ],
         "posts_tags": [
@@ -638,42 +509,6 @@
             "post_id": "d234a674d9db45ad3f7d41e5",
             "tag_id": "2cf0f40b3fcf0b272e88cde0",
             "sort_order": 4
-          },
-          {
-            "id": "a47451a87dda8f0c09559e74",
-            "post_id": "0804d7656b12652efde8deeb",
-            "tag_id": "8e399a9ee1509f4797f1626e",
-            "sort_order": 0
-          },
-          {
-            "id": "ef8122aea46a328e7ad746e1",
-            "post_id": "45414f602e9e4540140a1772",
-            "tag_id": "8e399a9ee1509f4797f1626e",
-            "sort_order": 0
-          },
-          {
-            "id": "fc5724080fbbaf5ee3e6b9b3",
-            "post_id": "df4d430b29db193357fed447",
-            "tag_id": "8e399a9ee1509f4797f1626e",
-            "sort_order": 0
-          },
-          {
-            "id": "f55df92913dc7451411c5a30",
-            "post_id": "11c3f3a471b030649760c7dc",
-            "tag_id": "8e399a9ee1509f4797f1626e",
-            "sort_order": 0
-          },
-          {
-            "id": "62e138f2674bfcab4c723803",
-            "post_id": "c59d40babf4d089db36568bb",
-            "tag_id": "40a45fce7c3e0f63ebf6f31d",
-            "sort_order": 0
-          },
-          {
-            "id": "9faf19f4d404d058e7c6ee68",
-            "post_id": "5b6ce91feef5e80cc32a7933",
-            "tag_id": "53567619089ec630c3692097",
-            "sort_order": 0
           }
         ]
       }
