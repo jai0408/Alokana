@@ -11,8 +11,9 @@ sample data. "Alokana" is a working name pending brand and legal review.
 | Path | What it is |
 | --- | --- |
 | `theme/` | Custom Ghost 6 theme: home, case database, case pages (status ladder, claims, evidence), investigations, explore-by-geography, trust pages. |
-| `content/build-import.mjs` | Builds a Ghost import file from the synthetic fixtures and trust-page copy. |
-| `content/alokana-sample-content.json` | Generated import file: 6 posts (5 sample cases + 1 sample investigation), 6 pages, 32 tags. All tagged `#synthetic`. |
+| `content/build-import.mjs` | Builds the two Ghost import files below from the trust-page copy and the synthetic fixtures. |
+| `content/alokana-trust-pages.json` | Methodology, corrections, right of reply, funding & independence, report-a-concern preview, explore. Imports **published**; contains no sample data. Safe for production. |
+| `content/alokana-sample-content.json` | 5 synthetic case records + 1 sample investigation, tagged `#synthetic`. Imports as **drafts**. Staging only. |
 | `content/routes.yaml` | Ghost routes: `/cases/`, `/investigations/`, `/notes/` collections. |
 | `archive/next-site/` | The earlier Next.js front end, kept for reference. Its domain package is the source for the fixtures. |
 
@@ -21,7 +22,7 @@ sample data. "Alokana" is a working name pending brand and legal review.
 ```bash
 npx gscan theme/                                       # validate (must pass for Ghost 6.x)
 (cd theme && zip -r ../alokana-theme.zip . -x '.*')   # package for upload
-node --experimental-strip-types content/build-import.mjs   # regenerate the import file
+node --experimental-strip-types content/build-import.mjs   # regenerate both import files
 ```
 
 ## Ghost setup (manual, needs a human with Ghost Admin access)
@@ -32,8 +33,24 @@ Nothing in this repo publishes to Ghost by itself. Each step below is done by an
 2. Settings → Membership: "Nobody" (no sign-ups, no comments — the blueprint rules out open comments).
 3. Settings → Design → Change theme → Upload `alokana-theme.zip`, then activate.
 4. Settings → Labs → Routes → upload `content/routes.yaml`.
-5. *Optional, staging only:* Settings → Advanced → Import → `content/alokana-sample-content.json`.
-   This loads synthetic sample records. Do not import it into the public production site.
+5. Settings → Advanced → Import/Export → Import → `content/alokana-trust-pages.json` (publishes the trust pages).
+6. Delete Ghost's default "Coming soon" post and "About" page.
+7. *Optional, staging only:* import `content/alokana-sample-content.json` (synthetic records, as drafts).
+   Do not import it into the public production site.
+
+The beta notice at the top of every page is a theme setting: Settings → Design → Site-wide → Beta notice.
+Clear it to hide the bar.
+
+### Theme notes
+- Fonts are self-hosted in `theme/assets/fonts/` (SIL OFL 1.1); the theme makes no third-party requests.
+  Ghost itself injects its search script from cdn.jsdelivr.net; that is outside the theme.
+- Pages carry `noindex, nofollow` while the archive is in beta (`theme/default.hbs`).
+- Case records are recognised by their primary tag's slug (`case`), not with `{{#has tag}}`, which matches tag names.
+
+### Checks run on the theme
+`npx gscan theme/`, plus a local Ghost 6 install with both import files loaded: every route renders,
+and axe-core (WCAG 2.1 AA + best practice) reports no violations on 13 page types in light and dark mode,
+at 1280px and 390px, with no horizontal scrolling.
 
 ### Tag conventions
 - `case` — structured case record (shown under `/cases/`).

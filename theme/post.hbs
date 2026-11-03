@@ -1,6 +1,7 @@
 {{!< default}}
 {{#post}}
-{{#has tag="case"}}
+{{!-- Match on slug: {{#has tag}} compares tag names, and this tag is named "Case record". --}}
+{{#match primary_tag.slug "case"}}
 <article class="case-record">
     <header class="case-head">
         <div class="wrap">
@@ -74,5 +75,5 @@
         <p class="small muted" style="margin-top:40px">Spot an error, or named in this piece? <a href="/right-of-reply/">Request a correction or respond</a>.</p>
     </div>
 </article>
-{{/has}}
+{{/match}}
 {{/post}}

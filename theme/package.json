@@ -1,7 +1,7 @@
 {
   "name": "alokana",
   "description": "Ghost theme for Alokana, the Real Estate Accountability Project public archive (Telangana and Andhra Pradesh).",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "license": "UNLICENSED",
   "engines": {
@@ -17,11 +17,22 @@
   "config": {
     "posts_per_page": 24,
     "image_sizes": {
-      "m": { "width": 720 },
-      "l": { "width": 1200 },
-      "xl": { "width": 2000 }
+      "m": {
+        "width": 720
+      },
+      "l": {
+        "width": 1200
+      },
+      "xl": {
+        "width": 2000
+      }
     },
     "card_assets": true,
-    "custom": {}
+    "custom": {
+      "beta_notice": {
+        "type": "text",
+        "default": "Public archive beta \u00b7 Records marked \u201cSynthetic sample\u201d are invented to show the format and describe no real person or event."
+      }
+    }
   }
 }

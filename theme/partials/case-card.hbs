@@ -2,6 +2,7 @@
 <article class="case-card" data-status="{{> "status-key"}}">
     <div class="case-card__meta">
         <span>{{tags from="2" to="2" autolink="false"}}</span>
+        {{#has tag="#synthetic"}}<span class="case-card__syn">Synthetic sample</span>{{/has}}
     </div>
     <h3 class="case-card__title"><a href="{{url}}">{{title}}</a></h3>
     <p class="case-card__place">
@@ -12,5 +13,4 @@
         {{> "status"}}
         <span class="muted small">Updated {{date updated_at format="D MMM YYYY"}}</span>
     </div>
-    {{#has tag="#synthetic"}}<span class="case-card__syn">Synthetic sample</span>{{/has}}
 </article>
