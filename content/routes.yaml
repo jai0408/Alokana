@@ -8,14 +8,17 @@ collections:
     permalink: /investigations/{slug}/
     filter: tag:investigation
     template: investigations
+    rss: false   # Ghost's RSS puts the author's name in every item
   /cases/:
     permalink: /cases/{slug}/
     filter: tag:case
     template: cases
+    rss: false
   /notes/:
     permalink: /notes/{slug}/
     template: index
+    rss: false
 
 taxonomies:
   tag: /tag/{slug}/
-  author: /author/{slug}/
+  # No author taxonomy: staff must not have public profile pages.

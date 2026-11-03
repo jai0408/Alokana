@@ -41,9 +41,19 @@ Nothing in this repo publishes to Ghost by itself. Each step below is done by an
 The beta notice at the top of every page is a theme setting: Settings → Design → Site-wide → Beta notice.
 Clear it to hide the bar.
 
+### Anonymity
+The site publishes as an institution. No staff name, profile or handle may reach a public page.
+- No bylines in the theme; `routes.yaml` has no author taxonomy, so there are no `/author/` pages or authors sitemap.
+- RSS is off for every collection (Ghost's feed carries the author's name).
+- `ghost_head` excludes `social_data` and `schema` (author name in meta tags and JSON-LD), and `search` and
+  `portal` (they embed the Content API key, which would let anyone list staff). The theme writes its own
+  link-preview tags with no author field.
+- Writers are invited as **Contributors**: they can draft but cannot publish. Only the owner publishes.
+- Keep every staff account's name, slug, bio, photo, website and social fields generic (e.g. "Alokana Desk").
+- Strip metadata (EXIF, PDF author fields) from images and documents before uploading.
+
 ### Theme notes
 - Fonts are self-hosted in `theme/assets/fonts/` (SIL OFL 1.1); the theme makes no third-party requests.
-  Ghost itself injects its search script from cdn.jsdelivr.net; that is outside the theme.
 - Pages carry `noindex, nofollow` while the archive is in beta (`theme/default.hbs`).
 - Case records are recognised by their primary tag's slug (`case`), not with `{{#has tag}}`, which matches tag names.
 

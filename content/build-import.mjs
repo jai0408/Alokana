@@ -280,7 +280,7 @@ const methodologySteps = [
   ["Contradiction search", "We actively look for later orders, stays, reversals, acquittals, corrective action and alternative explanations."],
   ["Right of reply", "Every material subject receives specific, fair questions. We record how and when notice was served and whether a response came."],
   ["Pre-publication review", "An editor checks sourcing and wording; counsel reviews high-risk allegations; a fact-checker verifies amounts and dates; personal data is redacted."],
-  ["Publication and monitoring", "A named editor publishes the approved version. We monitor new orders and replies and update status with a visible change history."],
+  ["Publication and monitoring", "An editor publishes the approved version. We monitor new orders and replies and update status with a visible change history."],
 ];
 const steps = (items) => `<ol class="steps">${items.map(([t, d]) => `<li><strong>${esc(t)}</strong><p>${esc(d)}</p></li>`).join("")}</ol>`;
 const stageClass = (k) => `status status--${STATUSES[k].stage}`;
