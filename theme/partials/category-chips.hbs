@@ -1,0 +1,12 @@
+{{!-- The eight categories from the methodology. Each links to its Ghost tag page. --}}
+<ul class="chips" aria-label="Categories">
+    <li><a href="/cases/" {{#unless tag}}aria-current="page"{{/unless}}>All categories</a></li>
+    <li><a href="/tag/land-ownership/" {{#match tag.slug "land-ownership"}}aria-current="page"{{/match}}>Land ownership</a></li>
+    <li><a href="/tag/builder-misconduct/" {{#match tag.slug "builder-misconduct"}}aria-current="page"{{/match}}>Builder misconduct</a></li>
+    <li><a href="/tag/planning-approval/" {{#match tag.slug "planning-approval"}}aria-current="page"{{/match}}>Planning and approval</a></li>
+    <li><a href="/tag/official-corruption/" {{#match tag.slug "official-corruption"}}aria-current="page"{{/match}}>Official corruption</a></li>
+    <li><a href="/tag/suspicious-property-money/" {{#match tag.slug "suspicious-property-money"}}aria-current="page"{{/match}}>Property money</a></li>
+    <li><a href="/tag/government-allotment/" {{#match tag.slug "government-allotment"}}aria-current="page"{{/match}}>Government allotment</a></li>
+    <li><a href="/tag/buyer-harm/" {{#match tag.slug "buyer-harm"}}aria-current="page"{{/match}}>Buyer harm</a></li>
+    <li><a href="/tag/institutional-failure/" {{#match tag.slug "institutional-failure"}}aria-current="page"{{/match}}>Institutional failure</a></li>
+</ul>

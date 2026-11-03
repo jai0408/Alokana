@@ -1,0 +1,9 @@
+{{!-- Status badge from the post's internal "#status-<key>" tag. A case record without one shows nothing rather than a guess. --}}
+{{#has tag="#status-complaint-received"}}<span class="status status--early"><span class="status__dot" aria-hidden="true"></span>Complaint received</span>{{/has}}
+{{#has tag="#status-fir-investigation"}}<span class="status status--early"><span class="status__dot" aria-hidden="true"></span>FIR / investigation</span>{{/has}}
+{{#has tag="#status-charges-filed"}}<span class="status status--proceeding"><span class="status__dot" aria-hidden="true"></span>Charges filed</span>{{/has}}
+{{#has tag="#status-regulatory-finding"}}<span class="status status--finding"><span class="status__dot" aria-hidden="true"></span>Regulatory / audit finding</span>{{/has}}
+{{#has tag="#status-proceeding-pending"}}<span class="status status--proceeding"><span class="status__dot" aria-hidden="true"></span>Trial / proceeding pending</span>{{/has}}
+{{#has tag="#status-judgment-issued"}}<span class="status status--finding"><span class="status__dot" aria-hidden="true"></span>Judgment / order issued</span>{{/has}}
+{{#has tag="#status-appeal-pending"}}<span class="status status--proceeding"><span class="status__dot" aria-hidden="true"></span>Appeal / review pending</span>{{/has}}
+{{#has tag="#status-closed"}}<span class="status status--final"><span class="status__dot" aria-hidden="true"></span>Closed / final outcome</span>{{/has}}

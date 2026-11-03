@@ -1,0 +1,27 @@
+{
+  "name": "alokana",
+  "description": "Ghost theme for Alokana, the Real Estate Accountability Project public archive (Telangana and Andhra Pradesh).",
+  "version": "0.2.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": {
+    "ghost": ">=6.0.0"
+  },
+  "author": {
+    "name": "Alokana",
+    "email": "editor@alokana.example"
+  },
+  "keywords": [
+    "ghost-theme"
+  ],
+  "config": {
+    "posts_per_page": 24,
+    "image_sizes": {
+      "m": { "width": 720 },
+      "l": { "width": 1200 },
+      "xl": { "width": 2000 }
+    },
+    "card_assets": true,
+    "custom": {}
+  }
+}

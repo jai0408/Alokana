@@ -11,3 +11,6 @@ vault/
 
 # Internal planning document - not for public repo
 *.pdf
+
+# Local Ghost CMS install (development only)
+cms/

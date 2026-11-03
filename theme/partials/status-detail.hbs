@@ -1,0 +1,21 @@
+{{!-- Wording rule and lifecycle stepper for a case page. --}}
+<p class="muted small" style="margin-top:10px;max-width:46rem">
+{{#has tag="#status-complaint-received"}}A complaint was filed with an identifiable body. A complaint does not establish the claim.{{/has}}
+{{#has tag="#status-fir-investigation"}}Police or an agency registered or is investigating the allegation. No finding has been made.{{/has}}
+{{#has tag="#status-charges-filed"}}The agency has filed a chargesheet or prosecution complaint. The trial outcome is pending.{{/has}}
+{{#has tag="#status-regulatory-finding"}}A regulator, tribunal, auditor or department made a specific finding, attributed here within its scope.{{/has}}
+{{#has tag="#status-proceeding-pending"}}A court or tribunal proceeding is still active. See the last-checked date.{{/has}}
+{{#has tag="#status-judgment-issued"}}A court or tribunal decided specific issues. The operative finding is summarised, not one side's argument.{{/has}}
+{{#has tag="#status-appeal-pending"}}An appeal, review or stay is pending. The earlier outcome is not final.{{/has}}
+{{#has tag="#status-closed"}}The proceeding is closed. The exact outcome and any remaining appeal route are stated.{{/has}}
+</p>
+<ol class="stepper" aria-label="Procedural stage">
+    <li {{#has tag="#status-complaint-received"}}aria-current="step"{{/has}}>Complaint received</li>
+    <li {{#has tag="#status-fir-investigation"}}aria-current="step"{{/has}}>FIR / investigation</li>
+    <li {{#has tag="#status-charges-filed"}}aria-current="step"{{/has}}>Charges filed</li>
+    <li {{#has tag="#status-regulatory-finding"}}aria-current="step"{{/has}}>Regulatory / audit finding</li>
+    <li {{#has tag="#status-proceeding-pending"}}aria-current="step"{{/has}}>Trial / proceeding pending</li>
+    <li {{#has tag="#status-judgment-issued"}}aria-current="step"{{/has}}>Judgment / order issued</li>
+    <li {{#has tag="#status-appeal-pending"}}aria-current="step"{{/has}}>Appeal / review pending</li>
+    <li {{#has tag="#status-closed"}}aria-current="step"{{/has}}>Closed / final outcome</li>
+</ol>

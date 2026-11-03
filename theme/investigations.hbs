@@ -1,0 +1,16 @@
+{{!< default}}
+<div class="wrap">
+    <header class="page-head">
+        <p class="kicker">Long-form</p>
+        <h1>Investigations</h1>
+        <p class="lede">Reported pieces that explain a pattern or a single case in depth. Every material claim links back to a structured case record and its evidence.</p>
+    </header>
+    {{#if posts}}
+    <ol class="inv-list">
+        {{#foreach posts}}{{> "investigation-item"}}{{/foreach}}
+    </ol>
+    {{else}}
+    <div class="empty"><p>No investigations have been published yet.</p></div>
+    {{/if}}
+    {{> "pagination"}}
+</div>

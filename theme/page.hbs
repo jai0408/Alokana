@@ -1,0 +1,16 @@
+{{!< default}}
+{{#post}}
+<div class="wrap">
+    {{#match @page.show_title_and_feature_image}}
+    <header class="page-head">
+        {{#if primary_tag}}<p class="kicker">{{primary_tag.name}}</p>{{/if}}
+        <h1>{{title}}</h1>
+        {{#if custom_excerpt}}<p class="lede">{{custom_excerpt}}</p>{{/if}}
+    </header>
+    {{/match}}
+    {{!-- Trust pages lay out their own sections in HTML cards, so they get the wide container rather than prose width. --}}
+    <div class="page-body page-wide">
+        {{content}}
+    </div>
+</div>
+{{/post}}
