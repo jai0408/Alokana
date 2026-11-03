@@ -16,6 +16,7 @@ export const metadata: Metadata = {
 };
 
 const NAV = [
+  { href: "/investigations", label: "Investigations" },
   { href: "/cases", label: "Case database" },
   { href: "/explore", label: "By geography" },
   { href: "/methodology", label: "Methodology" },
@@ -90,6 +91,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
             <div>
               <p className="footer-h">Archive</p>
+              <Link href="/investigations">Investigations</Link>
               <Link href="/cases">Case database</Link>
               <Link href="/explore">Explore by geography</Link>
               <Link href="/report">Report a concern</Link>
