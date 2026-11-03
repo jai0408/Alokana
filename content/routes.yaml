@@ -1,6 +1,7 @@
 # Upload in Ghost Admin → Settings → Labs → Routes.
 # A post belongs to the first collection whose filter it matches.
 routes:
+  /: home   # home.hbs pulls cases and investigations itself; without this, / is a 404
 
 collections:
   /investigations/:
