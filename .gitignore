@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.env*
+!.env.example
+.DS_Store
+# Never commit evidence or source material
+evidence/
+vault/
+
+# Internal planning document - not for public repo
+*.pdf

@@ -1,0 +1,13 @@
+{
+  "name": "alokana",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Real Estate Accountability Project — public evidence archive for Telangana and Andhra Pradesh",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "npm run dev -w @alokana/web",
+    "build": "npm run build -w @alokana/web",
+    "start": "npm run start -w @alokana/web",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  }
+}
